@@ -1,0 +1,56 @@
+{
+  "name": "babel-plugin-polyfill-custom",
+  "version": "1.0.0",
+  "description": "Yet another babel plugin that lets you freely customize polyfills.",
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "polyfill"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3846masa/babel-plugin-polyfill-custom.git"
+  },
+  "license": "MIT",
+  "author": "3846masa <3846masahiro+git@gmail.com>",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "format": "npm-run-all format:*",
+    "format:eslint": "eslint --fix --ext .js,.ts,.mjs,.mts .",
+    "format:prettier": "prettier --write .",
+    "lint": "npm-run-all lint:*",
+    "lint:eslint": "eslint --ext .js,.ts,.mjs,.mts .",
+    "lint:prettier": "prettier --check .",
+    "lint:tsc": "tsc --noEmit",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "@babel/helper-define-polyfill-provider": "0.3.2",
+    "@mdn/browser-compat-data": "5.2.0",
+    "fast-json-stable-stringify": "2.1.0",
+    "lodash.get": "4.4.2",
+    "semver": "7.3.7"
+  },
+  "devDependencies": {
+    "@3846masa/configs": "github:3846masa/configs#3d6e5ff19945ff1c242396fc105399f0b588635f",
+    "@babel/core": "7.18.13",
+    "@semantic-release/changelog": "6.0.1",
+    "@semantic-release/commit-analyzer": "9.0.2",
+    "@semantic-release/git": "10.0.1",
+    "@semantic-release/github": "8.0.6",
+    "@semantic-release/npm": "9.0.1",
+    "@semantic-release/release-notes-generator": "10.0.3",
+    "@types/babel__core": "7.1.19",
+    "@types/lodash.get": "4.4.7",
+    "@types/semver": "7.3.12",
+    "npm-run-all": "4.1.5",
+    "semantic-release": "19.0.5"
+  },
+  "peerDependencies": {
+    "@babel/core": ">=7.0.0"
+  }
+}

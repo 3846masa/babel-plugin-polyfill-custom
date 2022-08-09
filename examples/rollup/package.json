@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "@ungap/promise-any": "1.1.1",
+    "abort-controller": "3.0.0",
+    "whatwg-fetch": "3.6.2",
+    "zousan": "3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.10",
+    "@babel/preset-env": "7.18.10",
+    "@rollup/plugin-babel": "5.3.1",
+    "@rollup/plugin-commonjs": "22.0.2",
+    "@rollup/plugin-data-uri": "0.1.1",
+    "@rollup/plugin-node-resolve": "13.3.0",
+    "rollup": "2.77.2"
+  }
+}

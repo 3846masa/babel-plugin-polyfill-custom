@@ -1,0 +1,15 @@
+{
+  "extends": ["github>3846masa/configs//renovate/default"],
+  "packageRules": [
+    {
+      "automerge": false,
+      "matchPackagePatterns": ["*"]
+    },
+    {
+      "matchPaths": ["examples/**/package.json"],
+      "semanticCommitScope": "npm",
+      "semanticCommitType": "chore",
+      "stabilityDays": 0
+    }
+  ]
+}

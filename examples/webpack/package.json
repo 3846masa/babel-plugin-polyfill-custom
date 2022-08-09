@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@ungap/promise-any": "1.1.1",
+    "abort-controller": "3.0.0",
+    "whatwg-fetch": "3.6.2",
+    "zousan": "3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.10",
+    "@babel/preset-env": "7.18.10",
+    "babel-loader": "8.2.5",
+    "circular-dependency-plugin": "5.2.2",
+    "webpack": "5.74.0",
+    "webpack-cli": "4.10.0"
+  }
+}

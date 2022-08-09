@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "preserve",
+    "lib": ["ESNext"],
+    "module": "CommonJS",
+    "outDir": "lib/",
+    "resolveJsonModule": true,
+    "rootDir": "src/",
+    "target": "ESNext"
+  },
+  "extends": "@3846masa/configs/tsconfig.json",
+  "include": ["src/**/*"]
+}
