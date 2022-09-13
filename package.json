@@ -29,7 +29,7 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@babel/helper-define-polyfill-provider": "0.3.2",
+    "@babel/helper-define-polyfill-provider": "0.3.3",
     "@mdn/browser-compat-data": "5.2.1",
     "fast-json-stable-stringify": "2.1.0",
     "lodash.get": "4.4.2",
