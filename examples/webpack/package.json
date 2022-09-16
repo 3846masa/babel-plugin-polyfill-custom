@@ -10,8 +10,8 @@
     "zousan": "3.0.1"
   },
   "devDependencies": {
-    "@babel/core": "7.19.0",
-    "@babel/preset-env": "7.19.0",
+    "@babel/core": "7.19.1",
+    "@babel/preset-env": "7.19.1",
     "babel-loader": "8.2.5",
     "circular-dependency-plugin": "5.2.2",
     "webpack": "5.74.0",
