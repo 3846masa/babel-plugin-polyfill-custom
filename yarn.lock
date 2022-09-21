@@ -320,10 +320,10 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@mdn/browser-compat-data@5.2.2":
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-5.2.2.tgz#2ec6cc2f2e04905ed9f7223f9fa8ab3e9448550a"
-  integrity sha512-UBvrWRXnvvwR/7DyBWOaV2E95BlRFfZ5/NXH7oujE2bT8RnMpkf3hjLETEUediR/AkiLenwGuZpCH1kOpjki7A==
+"@mdn/browser-compat-data@5.2.3":
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-5.2.3.tgz#db4f0ffe5a18bad551c7a41ad34c22d34b0a6219"
+  integrity sha512-Cj8Yu+A3/n1H+37nHOK8Pgv6fm3ERpDPzIqCB2QtTmjh+c4Mr4YNt2Y2RAW2R89viq5RFZGCxuDZKAaEeOq4JQ==
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
