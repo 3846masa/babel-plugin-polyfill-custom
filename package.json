@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@babel/helper-define-polyfill-provider": "0.3.3",
-    "@mdn/browser-compat-data": "5.2.8",
+    "@mdn/browser-compat-data": "5.2.9",
     "fast-json-stable-stringify": "2.1.0",
     "lodash.get": "4.4.2",
     "semver": "7.3.8"
