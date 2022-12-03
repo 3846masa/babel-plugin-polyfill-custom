@@ -1,3 +1,10 @@
+## [1.0.20](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v1.0.19...v1.0.20) (2022-12-03)
+
+
+### Bug Fixes
+
+* **npm:** update dependency @mdn/browser-compat-data to v5.2.20 ([#105](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/105)) ([104ac00](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/104ac007215895dde9008a7fe9c56447094edd78))
+
 ## [1.0.19](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v1.0.18...v1.0.19) (2022-11-30)
 
 
