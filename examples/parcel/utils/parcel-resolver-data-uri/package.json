@@ -4,7 +4,7 @@
   "private": true,
   "main": "./index.js",
   "dependencies": {
-    "@parcel/plugin": "2.8.0",
+    "@parcel/plugin": "2.8.1",
     "data-urls": "3.0.2"
   }
 }
