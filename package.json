@@ -11,6 +11,7 @@
     "type": "git",
     "url": "https://github.com/3846masa/babel-plugin-polyfill-custom.git"
   },
+  "funding": "https://github.com/sponsors/3846masa",
   "license": "MIT",
   "author": "3846masa <3846masahiro+git@gmail.com>",
   "main": "lib/index.js",
