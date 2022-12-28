@@ -1,5 +1,6 @@
 # Babel Plugin Polyfill Custom
 
+[![github sponsors](https://flat.badgen.net/badge/GitHub%20Sponsors/Support%20me%20%E2%9D%A4/ff69b4?icon=github)](https://github.com/sponsors/3846masa)
 [![npm](https://img.shields.io/npm/v/babel-plugin-polyfill-custom.svg?logo=npm&style=flat-square)](https://www.npmjs.com/package/babel-plugin-polyfill-custom)
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](./LICENSE)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
