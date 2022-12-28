@@ -1,3 +1,10 @@
+## [1.0.24](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v1.0.23...v1.0.24) (2022-12-28)
+
+
+### Bug Fixes
+
+* **docs:** add funding link to README ([#137](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/137)) ([8392647](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/83926471245156f5da96e8a448583e40bb0f64a5))
+
 ## [1.0.23](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v1.0.22...v1.0.23) (2022-12-26)
 
 
