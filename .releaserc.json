@@ -36,5 +36,6 @@
       "release": "patch",
       "type": "fix"
     }
-  ]
+  ],
+  "repositoryUrl": "git@github.com:3846masa/babel-plugin-polyfill-custom.git"
 }
