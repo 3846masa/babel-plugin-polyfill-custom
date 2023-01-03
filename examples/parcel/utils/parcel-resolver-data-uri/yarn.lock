@@ -264,14 +264,14 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-data-urls@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/data-urls/-/data-urls-3.0.2.tgz#9cf24a477ae22bcef5cd5f6f0bfbc1d2d3be9143"
-  integrity sha512-Jy/tj3ldjZJo63sVAvg6LHt2mHvl4V6AgRAmNDtLdm7faqtsx+aJG42rsyCo9JCoRVKwPFzKlIPx3DIibwSIaQ==
+data-urls@4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/data-urls/-/data-urls-4.0.0.tgz#333a454eca6f9a5b7b0f1013ff89074c3f522dd4"
+  integrity sha512-/mMTei/JXPqvFqQtfyTowxmJVwr2PVAeCcDxyFf6LhoOu/09TX2OX3kb2wzi4DMXcfj4OItwDOnhl5oziPnT6g==
   dependencies:
     abab "^2.0.6"
     whatwg-mimetype "^3.0.0"
-    whatwg-url "^11.0.0"
+    whatwg-url "^12.0.0"
 
 detect-libc@^1.0.3:
   version "1.0.3"
@@ -401,10 +401,10 @@ whatwg-mimetype@^3.0.0:
   resolved "https://registry.yarnpkg.com/whatwg-mimetype/-/whatwg-mimetype-3.0.0.tgz#5fa1a7623867ff1af6ca3dc72ad6b8a4208beba7"
   integrity sha512-nt+N2dzIutVRxARx1nghPKGv1xHikU7HKdfafKkLNLindmPU/ch3U31NOCGGA/dmPcmb1VlofO0vnKAcsm0o/Q==
 
-whatwg-url@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-11.0.0.tgz#0a849eebb5faf2119b901bb76fd795c2848d4018"
-  integrity sha512-RKT8HExMpoYx4igMiVMY83lN6UeITKJlBQ+vR/8ZJ8OCdSiN3RwCq+9gH0+Xzj0+5IrM6i4j/6LuvzbZIQgEcQ==
+whatwg-url@^12.0.0:
+  version "12.0.0"
+  resolved "https://registry.yarnpkg.com/whatwg-url/-/whatwg-url-12.0.0.tgz#cf5798db0f8036de3fffabbcf92180d313811710"
+  integrity sha512-N2SCrbcSPw0gDyNqE+y5qH1gqiOe+HagWfgRJy2SmDO3C23mISmJhQ3zvZljBv2DWfBdLXypAtecWYZ+mg1krQ==
   dependencies:
     tr46 "^3.0.0"
     webidl-conversions "^7.0.0"
