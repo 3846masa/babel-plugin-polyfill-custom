@@ -5,6 +5,6 @@
   "main": "./index.js",
   "dependencies": {
     "@parcel/plugin": "2.8.2",
-    "data-urls": "3.0.2"
+    "data-urls": "4.0.0"
   }
 }
