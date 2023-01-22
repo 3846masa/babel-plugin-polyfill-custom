@@ -9,7 +9,8 @@
     "outDir": "lib/",
     "resolveJsonModule": true,
     "rootDir": "src/",
-    "target": "ESNext"
+    "target": "ESNext",
+    "types": ["node"]
   },
   "extends": "@3846masa/configs/tsconfig.json",
   "include": ["src/**/*"]
