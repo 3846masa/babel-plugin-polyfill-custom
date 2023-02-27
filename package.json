@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@3846masa/configs": "github:3846masa/configs#f6fb2cb9ccc8acbb8ca228956e65aad2f6ab2d5f",
-    "@babel/core": "7.20.12",
+    "@babel/core": "7.21.0",
     "@semantic-release/changelog": "6.0.2",
     "@semantic-release/commit-analyzer": "9.0.2",
     "@semantic-release/git": "10.0.1",
