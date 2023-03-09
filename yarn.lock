@@ -2,21 +2,21 @@
 # yarn lockfile v1
 
 
-"@3846masa/configs@github:3846masa/configs#bf876bd724b2ebe4a57cd46c302886e618d3f99a":
-  version "1.0.157"
-  uid bf876bd724b2ebe4a57cd46c302886e618d3f99a
-  resolved "https://codeload.github.com/3846masa/configs/tar.gz/bf876bd724b2ebe4a57cd46c302886e618d3f99a"
+"@3846masa/configs@github:3846masa/configs#833080f60949dc9ef4fa4e8d3bf1bf74dc0f24ea":
+  version "1.0.159"
+  uid "833080f60949dc9ef4fa4e8d3bf1bf74dc0f24ea"
+  resolved "https://codeload.github.com/3846masa/configs/tar.gz/833080f60949dc9ef4fa4e8d3bf1bf74dc0f24ea"
   dependencies:
     "@tsconfig/strictest" "1.0.2"
     "@typescript-eslint/eslint-plugin" "5.54.0"
     "@typescript-eslint/parser" "5.54.0"
     better-typescript-lib "2.2.1"
     eslint "8.35.0"
-    eslint-config-prettier "8.6.0"
+    eslint-config-prettier "8.7.0"
     eslint-import-resolver-typescript "3.5.3"
     eslint-plugin-import "2.27.5"
     eslint-plugin-sort "2.4.0"
-    eslint-plugin-unicorn "45.0.2"
+    eslint-plugin-unicorn "46.0.0"
     prettier "2.8.4"
     prettier-plugin-packagejson "2.4.3"
     prettier-plugin-sort-json "1.0.0"
@@ -1944,10 +1944,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-prettier@8.6.0:
-  version "8.6.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.6.0.tgz#dec1d29ab728f4fa63061774e1672ac4e363d207"
-  integrity sha512-bAF0eLpLVqP5oEVUFKpMA+NnRFICwn9X8B5jrR9FcqnYBuPbqWEjTEspPWMj5ye6czoSLDweCzSo3Ko7gGrZaA==
+eslint-config-prettier@8.7.0:
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.7.0.tgz#f1cc58a8afebc50980bd53475451df146c13182d"
+  integrity sha512-HHVXLSlVUhMSmyW4ZzEuvjpwqamgmlfkutD53cYXLikh4pt/modINRcCIApJ84czDxM4GZInwUrromsDdTImTA==
 
 eslint-import-resolver-node@^0.3.7:
   version "0.3.7"
@@ -2006,10 +2006,10 @@ eslint-plugin-sort@2.4.0:
   dependencies:
     "@typescript-eslint/experimental-utils" "^5.9.0"
 
-eslint-plugin-unicorn@45.0.2:
-  version "45.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-45.0.2.tgz#d6ba704793a6909fe5dfe013900d2b05b715284c"
-  integrity sha512-Y0WUDXRyGDMcKLiwgL3zSMpHrXI00xmdyixEGIg90gHnj0PcHY4moNv3Ppje/kDivdAy5vUeUr7z211ImPv2gw==
+eslint-plugin-unicorn@46.0.0:
+  version "46.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-46.0.0.tgz#b5cdcc9465fd6e46ab7968b87dd4a43adc8d6031"
+  integrity sha512-j07WkC+PFZwk8J33LYp6JMoHa1lXc1u6R45pbSAipjpfpb7KIGr17VE2D685zCxR5VL4cjrl65kTJflziQWMDA==
   dependencies:
     "@babel/helper-validator-identifier" "^7.19.1"
     "@eslint-community/eslint-utils" "^4.1.2"
