@@ -1,3 +1,10 @@
+## [1.0.57](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v1.0.56...v1.0.57) (2023-05-15)
+
+
+### Bug Fixes
+
+* **npm:** update dependency @babel/helper-define-polyfill-provider to v0.4.0 ([#321](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/321)) ([b145be7](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/b145be787969007bd2f0757783c777b22fc42b1c))
+
 ## [1.0.56](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v1.0.55...v1.0.56) (2023-05-07)
 
 
