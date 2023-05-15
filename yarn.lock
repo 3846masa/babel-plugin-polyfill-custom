@@ -84,10 +84,10 @@
     lru-cache "^5.1.1"
     semver "^6.3.0"
 
-"@babel/helper-define-polyfill-provider@0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.3.3.tgz#8612e55be5d51f0cd1f36b4a5a83924e89884b7a"
-  integrity sha512-z5aQKU4IzbqCC1XH0nAqfsFLMVSo22SBKUc0BxGrLkolTdPTructy0ToNnlO2zA4j9Q/7pjMZf0DSY+DSTYzww==
+"@babel/helper-define-polyfill-provider@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@babel/helper-define-polyfill-provider/-/helper-define-polyfill-provider-0.4.0.tgz#487053f103110f25b9755c5980e031e93ced24d8"
+  integrity sha512-RnanLx5ETe6aybRi1cO/edaRH+bNYWaryCEmjDDYyNr4wnSzyOp8T0dWipmqVHKEY3AbVKUom50AKSlj1zmKbg==
   dependencies:
     "@babel/helper-compilation-targets" "^7.17.7"
     "@babel/helper-plugin-utils" "^7.16.7"
