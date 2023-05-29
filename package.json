@@ -46,7 +46,7 @@
     "@semantic-release/github": "8.0.7",
     "@semantic-release/npm": "10.0.2",
     "@semantic-release/release-notes-generator": "10.0.3",
-    "@types/babel__core": "7.20.0",
+    "@types/babel__core": "7.20.1",
     "@types/lodash.get": "4.4.7",
     "@types/node": "18.16.14",
     "@types/semver": "7.5.0",
