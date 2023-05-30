@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.22.1",
-    "@babel/preset-env": "7.22.2",
+    "@babel/preset-env": "7.22.4",
     "@parcel/config-default": "2.9.1",
     "@parcel/resolver-default": "2.9.1",
     "parcel": "2.9.1",
