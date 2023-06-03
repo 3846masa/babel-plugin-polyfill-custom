@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@babel/core": "7.22.1",
-    "@babel/preset-env": "7.22.2",
+    "@babel/preset-env": "7.22.4",
     "babel-loader": "9.1.2",
     "circular-dependency-plugin": "5.2.2",
     "webpack": "5.84.1",
