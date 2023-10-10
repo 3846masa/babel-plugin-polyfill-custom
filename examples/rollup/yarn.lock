@@ -994,10 +994,10 @@
     is-reference "1.2.1"
     magic-string "^0.27.0"
 
-"@rollup/plugin-data-uri@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-data-uri/-/plugin-data-uri-1.0.2.tgz#a28dcd43f7da4596f67636d6ceaf467b01c1004f"
-  integrity sha512-x+MLZsylp7DqEJ1WeUslIA8a+9o8kPrpyi+nP7Bu+j0fqAiGkUBjheR/o0/yx9+8/M1fyrAUsUMZhmuX/gIS9A==
+"@rollup/plugin-data-uri@1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-data-uri/-/plugin-data-uri-1.0.3.tgz#a8d819649a5d4fc60a63a980825bb948ce3ceee5"
+  integrity sha512-3GjO7shlJBS1mkUNnnrtIfQh2G9yQhlhHTw6PJ28pGu90PIsvH0+fBrI3jQ7O2um2KTO4MZz7nckIwP8iPmhpg==
   dependencies:
     "@rollup/pluginutils" "^5.0.1"
 
