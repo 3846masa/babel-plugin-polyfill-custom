@@ -31,7 +31,7 @@
     "patch-package": "patch-package"
   },
   "dependencies": {
-    "@babel/helper-define-polyfill-provider": "0.4.2",
+    "@babel/helper-define-polyfill-provider": "0.4.3",
     "@mdn/browser-compat-data": "5.3.21",
     "fast-json-stable-stringify": "2.1.0",
     "lodash.get": "4.4.2",
