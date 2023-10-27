@@ -13,9 +13,9 @@
   "devDependencies": {
     "@babel/core": "7.23.2",
     "@babel/preset-env": "7.23.2",
-    "@parcel/config-default": "2.10.0",
-    "@parcel/resolver-default": "2.10.0",
-    "parcel": "2.10.0",
+    "@parcel/config-default": "2.10.1",
+    "@parcel/resolver-default": "2.10.1",
+    "parcel": "2.10.1",
     "parcel-resolver-data-uri": "file:./utils/parcel-resolver-data-uri",
     "process": "0.11.10"
   }
