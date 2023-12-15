@@ -6,7 +6,7 @@
   "dependencies": {
     "@ungap/promise-any": "1.1.1",
     "abort-controller": "3.0.0",
-    "whatwg-fetch": "3.6.19",
+    "whatwg-fetch": "3.6.20",
     "zousan": "3.0.1"
   },
   "devDependencies": {
