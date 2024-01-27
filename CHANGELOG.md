@@ -1,3 +1,10 @@
+## [1.0.97](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v1.0.96...v1.0.97) (2024-01-27)
+
+
+### Bug Fixes
+
+* remove unnecessary option from PluginOptions type ([#581](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/581)) ([4f16c26](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/4f16c2607ca9c3eb4fa56f027a7111012bc0bea0))
+
 ## [1.0.96](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v1.0.95...v1.0.96) (2024-01-24)
 
 
