@@ -1,3 +1,10 @@
+## [1.0.101](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v1.0.100...v1.0.101) (2024-02-09)
+
+
+### Bug Fixes
+
+* **npm:** update dependency semver to v7.6.0 ([#603](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/603)) ([6e9f959](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/6e9f959d6c54dd9361a926d8e51a876a51fe66fd))
+
 ## [1.0.100](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v1.0.99...v1.0.100) (2024-02-03)
 
 
