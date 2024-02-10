@@ -32,8 +32,8 @@ devDependencies:
     specifier: 2.11.0
     version: 2.11.0(@parcel/core@2.11.0)
   babel-plugin-polyfill-custom:
-    specifier: ^1.0.100
-    version: 1.0.100(@babel/core@7.23.9)
+    specifier: ^1.0.101
+    version: 1.0.101(@babel/core@7.23.9)
   parcel:
     specifier: 2.11.0
     version: 2.11.0
@@ -2382,8 +2382,8 @@ packages:
       - supports-color
     dev: true
 
-  /babel-plugin-polyfill-custom@1.0.100(@babel/core@7.23.9):
-    resolution: {integrity: sha512-frekVtiL9yCBojmVsMuNo9GY17/k6O1kKPDzIdRhadP1EoOldRthbMLEbzkVHlKmpv48rWW1gTpukz8gV7IIjQ==}
+  /babel-plugin-polyfill-custom@1.0.101(@babel/core@7.23.9):
+    resolution: {integrity: sha512-G05mbIG9twvno0pFsYIKmzpgoxFmjZjQAuCGOEthnvU0d6TXeIe4herZtELheXs1KMpvFyqb3gtApPGCTDNHIA==}
     peerDependencies:
       '@babel/core': '>=7.0.0'
     dependencies:
@@ -2392,7 +2392,7 @@ packages:
       '@mdn/browser-compat-data': 5.5.9
       fast-json-stable-stringify: 2.1.0
       lodash.get: 4.4.2
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3257,6 +3257,14 @@ packages:
 
   /semver@7.5.4:
     resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: true
+
+  /semver@7.6.0:
+    resolution: {integrity: sha512-EnwXhrlwXMk9gKu5/flx5sv/an57AkRplG3hTK68W7FRDN+k+OWBj65M7719OkA82XLBxrcX0KSHj+X5COhOVg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
