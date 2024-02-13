@@ -32,8 +32,8 @@ devDependencies:
     specifier: 2.11.0
     version: 2.11.0(@parcel/core@2.11.0)
   babel-plugin-polyfill-custom:
-    specifier: ^1.0.101
-    version: 1.0.101(@babel/core@7.23.9)
+    specifier: ^1.0.102
+    version: 1.0.102(@babel/core@7.23.9)
   parcel:
     specifier: 2.11.0
     version: 2.11.0
@@ -1307,8 +1307,8 @@ packages:
     dev: true
     optional: true
 
-  /@mdn/browser-compat-data@5.5.9:
-    resolution: {integrity: sha512-36jBin7kGrMn+RC/8k9IKeKvZyMweA0sDNIthUbzSGTQasfMIp2naJ1e+ISUtzu/7RrpDjRh4BkVTSO6f0XArA==}
+  /@mdn/browser-compat-data@5.5.10:
+    resolution: {integrity: sha512-s2GGND9oLhEuksOFtICYOBZdMWPANBXTMqAXh89q6g1Mi3+OuWEmp9WFzw2v/nmS175vqeewpC1kDJA7taaxyA==}
     dev: true
 
   /@mischnic/json-sourcemap@0.1.1:
@@ -1488,7 +1488,7 @@ packages:
       json5: 2.2.3
       msgpackr: 1.10.1
       nullthrows: 1.1.1
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /@parcel/diagnostic@2.11.0:
@@ -1561,7 +1561,7 @@ packages:
       '@parcel/rust': 2.11.0
       '@parcel/utils': 2.11.0
       nullthrows: 1.1.1
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
@@ -1657,7 +1657,7 @@ packages:
       '@parcel/types': 2.11.0(@parcel/core@2.11.0)
       '@parcel/utils': 2.11.0
       '@parcel/workers': 2.11.0(@parcel/core@2.11.0)
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /@parcel/packager-css@2.11.0(@parcel/core@2.11.0):
@@ -1864,7 +1864,7 @@ packages:
       browserslist: 4.22.3
       json5: 2.2.3
       nullthrows: 1.1.1
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
@@ -1895,7 +1895,7 @@ packages:
       posthtml: 0.16.6
       posthtml-parser: 0.10.2
       posthtml-render: 3.0.0
-      semver: 7.5.4
+      semver: 7.6.0
       srcset: 4.0.0
     transitivePeerDependencies:
       - '@parcel/core'
@@ -1931,7 +1931,7 @@ packages:
       browserslist: 4.22.3
       nullthrows: 1.1.1
       regenerator-runtime: 0.13.11
-      semver: 7.5.4
+      semver: 7.6.0
     dev: true
 
   /@parcel/transformer-json@2.11.0(@parcel/core@2.11.0):
@@ -1955,7 +1955,7 @@ packages:
       clone: 2.1.2
       nullthrows: 1.1.1
       postcss-value-parser: 4.2.0
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
@@ -1970,7 +1970,7 @@ packages:
       posthtml: 0.16.6
       posthtml-parser: 0.10.2
       posthtml-render: 3.0.0
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
@@ -2006,7 +2006,7 @@ packages:
       posthtml: 0.16.6
       posthtml-parser: 0.10.2
       posthtml-render: 3.0.0
-      semver: 7.5.4
+      semver: 7.6.0
     transitivePeerDependencies:
       - '@parcel/core'
     dev: true
@@ -2382,14 +2382,14 @@ packages:
       - supports-color
     dev: true
 
-  /babel-plugin-polyfill-custom@1.0.101(@babel/core@7.23.9):
-    resolution: {integrity: sha512-G05mbIG9twvno0pFsYIKmzpgoxFmjZjQAuCGOEthnvU0d6TXeIe4herZtELheXs1KMpvFyqb3gtApPGCTDNHIA==}
+  /babel-plugin-polyfill-custom@1.0.102(@babel/core@7.23.9):
+    resolution: {integrity: sha512-UrOj0TgzCB8UfKHSC7lJg9mx8FUsc9SF9RIW1bDyxB7I+ER6jycgmyrY/3xM9MMjlWQNUgLOrFwISZNSaUAuQg==}
     peerDependencies:
       '@babel/core': '>=7.0.0'
     dependencies:
       '@babel/core': 7.23.9
       '@babel/helper-define-polyfill-provider': 0.5.0(@babel/core@7.23.9)
-      '@mdn/browser-compat-data': 5.5.9
+      '@mdn/browser-compat-data': 5.5.10
       fast-json-stable-stringify: 2.1.0
       lodash.get: 4.4.2
       semver: 7.6.0
@@ -3071,9 +3071,6 @@ packages:
     resolution: {integrity: sha512-H/RI1/DmuOkL8RuG/EpNPvtzrbF+7jA/R56ydEEm+lqFbYktKB4COR7JXdHkZXRgbSJyimrFB8d0r9+SaRnj0Q==}
     engines: {node: '>= 12.0.0'}
     hasBin: true
-    peerDependenciesMeta:
-      '@parcel/core':
-        optional: true
     dependencies:
       '@parcel/config-default': 2.11.0(@parcel/core@2.11.0)
       '@parcel/core': 2.11.0
@@ -3253,14 +3250,6 @@ packages:
   /semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
-    dev: true
-
-  /semver@7.5.4:
-    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
     dev: true
 
   /semver@7.6.0:
