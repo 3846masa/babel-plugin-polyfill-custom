@@ -32,8 +32,8 @@ devDependencies:
     specifier: 2.11.0
     version: 2.11.0(@parcel/core@2.11.0)
   babel-plugin-polyfill-custom:
-    specifier: ^1.0.104
-    version: 1.0.104(@babel/core@7.24.0)
+    specifier: ^1.0.105
+    version: 1.0.105(@babel/core@7.24.0)
   parcel:
     specifier: 2.11.0
     version: 2.11.0
@@ -1333,8 +1333,8 @@ packages:
     dev: true
     optional: true
 
-  /@mdn/browser-compat-data@5.5.12:
-    resolution: {integrity: sha512-/AHFqy6OeNHS2NNZGFVRgQh+pnW8iAoV3d1fiO9b2PuQ3HzZpC30MrMrHtq1uOGy1/zcK4uPQEyI31jkM0NNAA==}
+  /@mdn/browser-compat-data@5.5.13:
+    resolution: {integrity: sha512-TebJo+nW4mfxxHcCoYC+3GgSitQGwjp6sAT/b6tqfKifyLfn9jlf3xa0tE/fnhGFerLzGauFrTf1HCTuVyYysQ==}
     dev: true
 
   /@mischnic/json-sourcemap@0.1.1:
@@ -2408,14 +2408,14 @@ packages:
       - supports-color
     dev: true
 
-  /babel-plugin-polyfill-custom@1.0.104(@babel/core@7.24.0):
-    resolution: {integrity: sha512-2PCs19mAxJVAAK7G4E8M+p8yJgTzq0Vb9RYHKZcMPJJXM3k0CozrnL/F7DQw4Q2UNhl9UVvS5PGIxF3rQgntTg==}
+  /babel-plugin-polyfill-custom@1.0.105(@babel/core@7.24.0):
+    resolution: {integrity: sha512-nLQMEXpnP6QvtPSSYcUeyX1ohqBmvqGg/l4l/ddWIVhDRNPkcayVTkKLR2IeF0myRz7C5RD4vx1F/0aJSTNp4g==}
     peerDependencies:
       '@babel/core': '>=7.0.0'
     dependencies:
       '@babel/core': 7.24.0
       '@babel/helper-define-polyfill-provider': 0.5.0(@babel/core@7.24.0)
-      '@mdn/browser-compat-data': 5.5.12
+      '@mdn/browser-compat-data': 5.5.13
       fast-json-stable-stringify: 2.1.0
       lodash.get: 4.4.2
       semver: 7.6.0
