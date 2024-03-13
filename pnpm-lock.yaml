@@ -11,8 +11,8 @@ patchedDependencies:
 
 dependencies:
   '@babel/helper-define-polyfill-provider':
-    specifier: 0.5.0
-    version: 0.5.0(@babel/core@7.24.0)
+    specifier: 0.6.0
+    version: 0.6.0(@babel/core@7.24.0)
   '@mdn/browser-compat-data':
     specifier: 5.5.14
     version: 5.5.14
@@ -148,8 +148,8 @@ packages:
       lru-cache: 5.1.1
       semver: 6.3.1
 
-  /@babel/helper-define-polyfill-provider@0.5.0(@babel/core@7.24.0):
-    resolution: {integrity: sha512-NovQquuQLAQ5HuyjCz7WQP9MjRj7dx++yspwiyUiGl9ZyadHRSql1HZh5ogRd8W8w6YM6EQ/NTB8rgjLt5W65Q==}
+  /@babel/helper-define-polyfill-provider@0.6.0(@babel/core@7.24.0):
+    resolution: {integrity: sha512-efwOM90nCG6YeT8o3PCyBVSxRfmILxCNL+TNI8CGQl7a62M0Wd9VkV+XHwIlkOz1r4b+lxu6gBjdWiOMdUCrCQ==}
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
     dependencies:
