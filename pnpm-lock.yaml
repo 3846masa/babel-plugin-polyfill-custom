@@ -28,8 +28,8 @@ dependencies:
 
 devDependencies:
   '@3846masa/configs':
-    specifier: github:3846masa/configs#fd7f7393431cfb6c2ac102dc13ba1da52fa1abc6
-    version: github.com/3846masa/configs/fd7f7393431cfb6c2ac102dc13ba1da52fa1abc6
+    specifier: github:3846masa/configs#7159f073ff1b579d4d34f2e279fef03bcf633bea
+    version: github.com/3846masa/configs/7159f073ff1b579d4d34f2e279fef03bcf633bea
   '@babel/core':
     specifier: 7.24.4
     version: 7.24.4
@@ -2992,7 +2992,7 @@ packages:
     dependencies:
       '@sindresorhus/merge-streams': 1.0.0
       fast-glob: 3.3.2
-      ignore: 5.3.0
+      ignore: 5.3.1
       path-type: 5.0.0
       slash: 5.1.0
       unicorn-magic: 0.1.0
@@ -3119,11 +3119,6 @@ packages:
   /human-signals@5.0.0:
     resolution: {integrity: sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==}
     engines: {node: '>=16.17.0'}
-    dev: true
-
-  /ignore@5.3.0:
-    resolution: {integrity: sha512-g7dmpshy+gD7mh88OC9NwSGTKoc3kyLAZQRU1mt53Aw/vnvfXnbC+F/7F7QoYVKbV+KNvJx8wArewKy1vXMtlg==}
-    engines: {node: '>= 4'}
     dev: true
 
   /ignore@5.3.1:
@@ -5652,10 +5647,10 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  github.com/3846masa/configs/fd7f7393431cfb6c2ac102dc13ba1da52fa1abc6:
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/fd7f7393431cfb6c2ac102dc13ba1da52fa1abc6}
+  github.com/3846masa/configs/7159f073ff1b579d4d34f2e279fef03bcf633bea:
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/7159f073ff1b579d4d34f2e279fef03bcf633bea}
     name: '@3846masa/configs'
-    version: 1.0.354
+    version: 1.0.355
     dependencies:
       '@tsconfig/strictest': 2.0.5
       '@typescript-eslint/eslint-plugin': 7.7.0(@typescript-eslint/parser@7.7.0)(eslint@8.57.0)(typescript@5.4.5)
