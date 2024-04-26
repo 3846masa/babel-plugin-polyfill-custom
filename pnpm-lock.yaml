@@ -14,8 +14,8 @@ dependencies:
     specifier: 0.6.2
     version: 0.6.2(@babel/core@7.24.4)
   '@mdn/browser-compat-data':
-    specifier: 5.5.22
-    version: 5.5.22
+    specifier: 5.5.23
+    version: 5.5.23
   fast-json-stable-stringify:
     specifier: 2.1.0
     version: 2.1.0
@@ -901,8 +901,8 @@ packages:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  /@mdn/browser-compat-data@5.5.22:
-    resolution: {integrity: sha512-2v+HeCb1J4tAi4M9zMR1AtxMBA08q8HMDXbJ1H64sFpXhTU/8W2kBBjTL9TkUQiHaJDFFU6kAFBlsfslP253WA==}
+  /@mdn/browser-compat-data@5.5.23:
+    resolution: {integrity: sha512-nIy38qL3nfNcGOz5J2BJQpBXa7vM9QO1+wbyvqqS89lgNTWE8Q10whLsmE0sTVBooXiEaRc4fVME5IXjCYiHAw==}
     dev: false
 
   /@nodelib/fs.scandir@2.1.5:
