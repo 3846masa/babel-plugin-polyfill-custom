@@ -13,7 +13,7 @@ export function createPolyfillTargets(options: PluginOptions) {
     const targets: Record<string, string> = {};
 
     for (const featureId of features) {
-      const compat: Identifier | undefined = get(bcd, featureId);
+      const compat: Identifier | undefined = get(bcd, featureId) as Identifier | undefined;
       const support = compat?.__compat?.support ?? {};
 
       for (const mdnBrowserName of Object.keys(support) as BrowserName[]) {

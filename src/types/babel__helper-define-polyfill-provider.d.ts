@@ -40,7 +40,7 @@ declare module '@babel/helper-define-polyfill-provider' {
     name: string;
   };
 
-  type ResolverFn<T> = (meta: MetaDescriptor) => void | ResolvedPolyfill<T>;
+  type ResolverFn<T> = (meta: MetaDescriptor) => undefined | ResolvedPolyfill<T>;
 
   function createMetaResolver<T>(polyfills: ResolverPolyfills<T>): ResolverFn<T>;
 
@@ -61,7 +61,7 @@ declare module '@babel/helper-define-polyfill-provider' {
     babel: typeof babel & babel.ConfigAPI;
     createMetaResolver: typeof createMetaResolver;
     debug(name: string | null): void;
-    getUtils(path: NodePath): Utils;
+    getUtils(path: babel.NodePath): Utils;
     method: MethodString;
     shouldInjectPolyfill(name: string): boolean;
     targets: Targets;
