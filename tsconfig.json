@@ -1,18 +1,17 @@
 {
   "compilerOptions": {
-    "declaration": false,
     "esModuleInterop": true,
     "lib": ["ESNext"],
     "module": "CommonJS",
-    "outDir": "lib/",
+    "noEmit": true,
     "paths": {
       "@mdn/browser-compat-data": ["./src/types/mdn__browser-compat-data"]
     },
-    "rootDir": "src/",
     "target": "ESNext",
     "types": ["node"],
     "verbatimModuleSyntax": false
   },
-  "extends": "@3846masa/configs/tsconfig.json",
-  "include": ["src/**/*"]
+  "exclude": ["lib/", "examples/"],
+  "extends": "@3846masa/configs/typescript/tsconfig.json",
+  "include": ["**/*", "**/.*"]
 }

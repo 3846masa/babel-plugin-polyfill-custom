@@ -1,3 +1,4 @@
+/* global Buffer */
 import { template, transformFromAstSync, types as t } from '@babel/core';
 
 import { SOURCE_TYPE_COMMONJS } from './constants';
