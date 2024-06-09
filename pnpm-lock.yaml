@@ -30,8 +30,8 @@ importers:
         version: 7.6.2
     devDependencies:
       '@3846masa/configs':
-        specifier: github:3846masa/configs#c26deac2b2100be39a8c994fe59c117c8a86fbff
-        version: https://codeload.github.com/3846masa/configs/tar.gz/c26deac2b2100be39a8c994fe59c117c8a86fbff(@typescript-eslint/parser@7.12.0(eslint@9.4.0)(typescript@5.4.5))
+        specifier: github:3846masa/configs#a71d6765a5d8cf39c0fd7eea1b5a6cd484581fc7
+        version: https://codeload.github.com/3846masa/configs/tar.gz/a71d6765a5d8cf39c0fd7eea1b5a6cd484581fc7(@typescript-eslint/parser@7.12.0(eslint@9.4.0)(typescript@5.4.5))
       '@babel/core':
         specifier: 7.24.7
         version: 7.24.7
@@ -89,9 +89,9 @@ importers:
 
 packages:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/c26deac2b2100be39a8c994fe59c117c8a86fbff':
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/c26deac2b2100be39a8c994fe59c117c8a86fbff}
-    version: 1.0.390
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/a71d6765a5d8cf39c0fd7eea1b5a6cd484581fc7':
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/a71d6765a5d8cf39c0fd7eea1b5a6cd484581fc7}
+    version: 1.0.391
 
   '@aashutoshrathi/word-wrap@1.2.6':
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
@@ -3098,7 +3098,7 @@ packages:
 
 snapshots:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/c26deac2b2100be39a8c994fe59c117c8a86fbff(@typescript-eslint/parser@7.12.0(eslint@9.4.0)(typescript@5.4.5))':
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/a71d6765a5d8cf39c0fd7eea1b5a6cd484581fc7(@typescript-eslint/parser@7.12.0(eslint@9.4.0)(typescript@5.4.5))':
     dependencies:
       '@eslint/js': 9.4.0
       '@tsconfig/strictest': 2.0.5
@@ -3270,7 +3270,7 @@ snapshots:
 
   '@babel/highlight@7.24.6':
     dependencies:
-      '@babel/helper-validator-identifier': 7.24.6
+      '@babel/helper-validator-identifier': 7.24.7
       chalk: 2.4.2
       js-tokens: 4.0.0
       picocolors: 1.0.0
@@ -4718,7 +4718,7 @@ snapshots:
 
   eslint-plugin-unicorn@53.0.0(eslint@9.4.0):
     dependencies:
-      '@babel/helper-validator-identifier': 7.24.6
+      '@babel/helper-validator-identifier': 7.24.7
       '@eslint-community/eslint-utils': 4.4.0(eslint@9.4.0)
       '@eslint/eslintrc': 3.1.0
       ci-info: 4.0.0
