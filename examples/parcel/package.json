@@ -11,7 +11,7 @@
     "zousan": "3.0.1"
   },
   "devDependencies": {
-    "@babel/core": "7.24.8",
+    "@babel/core": "7.24.9",
     "@babel/preset-env": "7.24.8",
     "@parcel/config-default": "2.12.0",
     "@parcel/resolver-default": "2.12.0",
