@@ -56,7 +56,7 @@
     "dedent": "1.5.3",
     "jest": "29.7.0",
     "semantic-release": "22.0.12",
-    "ts-jest": "29.2.3",
+    "ts-jest": "29.2.4",
     "typescript": "5.5.4"
   },
   "peerDependencies": {
