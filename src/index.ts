@@ -8,7 +8,7 @@ import { InjectActionCache } from './inject_action_cache';
 import { isPolyfillId } from './is_polyfill_id';
 import type { PluginOptions, SourceType } from './types';
 
-export default defineProvider<PluginOptions>(({ debug, shouldInjectPolyfill }, pluginOptions) => {
+export default defineProvider<PluginOptions>((api, pluginOptions) => {
   return {
     entryGlobal(meta, _utils, path) {
       if (meta.kind !== 'import' || !isPolyfillId(meta.source)) {
@@ -17,8 +17,8 @@ export default defineProvider<PluginOptions>(({ debug, shouldInjectPolyfill }, p
 
       const polyfill = pluginOptions.polyfills[meta.source];
 
-      if (polyfill == null || !shouldInjectPolyfill(meta.source)) {
-        debug(null);
+      if (polyfill == null || !api.shouldInjectPolyfill(meta.source)) {
+        api.debug(null);
         path.remove();
         return;
       }
@@ -29,7 +29,7 @@ export default defineProvider<PluginOptions>(({ debug, shouldInjectPolyfill }, p
 
       for (const packageOptions of polyfill.packages) {
         insertActionCache.inject([{ packageOptions, sourceType }], ({ packageOptions, sourceType }) => {
-          debug(packageOptions.packageName);
+          api.debug(packageOptions.packageName);
           path.insertBefore(generateProviderImportAST({ packageOptions, sourceType }));
         });
       }
