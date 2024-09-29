@@ -13,6 +13,6 @@
     "@babel/cli": "7.25.6",
     "@babel/core": "7.25.2",
     "@babel/preset-env": "7.25.4",
-    "babel-plugin-polyfill-custom": "^1.0.119"
+    "babel-plugin-polyfill-custom": "^1.0.120"
   }
 }
