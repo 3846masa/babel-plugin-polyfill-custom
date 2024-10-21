@@ -39,7 +39,7 @@
     "semver": "7.6.3"
   },
   "devDependencies": {
-    "@3846masa/configs": "github:3846masa/configs#445f0d21c0a4a5fcd9d2a43c62e18c1819e45fec",
+    "@3846masa/configs": "github:3846masa/configs#b89eebcd097afb5d202461c3978878f6f6aeb36d",
     "@babel/core": "7.25.8",
     "@jest/globals": "29.7.0",
     "@semantic-release/changelog": "6.0.3",
