@@ -34,8 +34,8 @@ importers:
         specifier: 2.12.0
         version: 2.12.0(@parcel/core@2.12.0(@swc/helpers@0.5.3))(@swc/helpers@0.5.3)
       babel-plugin-polyfill-custom:
-        specifier: ^1.0.126
-        version: 1.0.126(@babel/core@7.26.0)
+        specifier: ^1.0.127
+        version: 1.0.127(@babel/core@7.26.0)
       parcel:
         specifier: 2.12.0
         version: 2.12.0(@swc/helpers@0.5.3)(srcset@4.0.0)
@@ -599,8 +599,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@mdn/browser-compat-data@5.6.10':
-    resolution: {integrity: sha512-plMgRN6pGGaHxvH5Y5DJcWR3C8tC/HHN18saHAWu395XfNRtFMrKPiDeRGQWIHjTXFbQVLra2nFG5GKyezXy+Q==}
+  '@mdn/browser-compat-data@5.6.11':
+    resolution: {integrity: sha512-kJUu7JcRSOf3uEs0jK0RZCckaBfjhtWpgKyJUyAk8LRlQl9Yj/R/ddwfjo37dfzkvNYtHvH4Eg+NFkTDzd08Eg==}
 
   '@mischnic/json-sourcemap@0.1.1':
     resolution: {integrity: sha512-iA7+tyVqfrATAIsIRWQG+a7ZLLD0VaOCKV2Wd/v4mqIU3J9c4jx9p7S0nw1XH3gJCKNBOOwACOPYYSUu9pgT+w==}
@@ -1043,8 +1043,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
-  babel-plugin-polyfill-custom@1.0.126:
-    resolution: {integrity: sha512-PDULb9XvPMHlkX3WW8JfQAxhhLeznXvnV2MF/QLZMNqHZKVNqZEgkLBX8/vYhQyTTs1UhncPUijE13SsPYNiPA==}
+  babel-plugin-polyfill-custom@1.0.127:
+    resolution: {integrity: sha512-zvhp6U0ocdqLZbaN1qGG1w6e7QG+agFNtI0loGDq4cx4cu48RTljUboTnL5Speb2ZggAR5b3zt48puCNqRZtsw==}
     peerDependencies:
       '@babel/core': '>=7.0.0'
 
@@ -2337,7 +2337,7 @@ snapshots:
   '@lmdb/lmdb-win32-x64@2.8.5':
     optional: true
 
-  '@mdn/browser-compat-data@5.6.10': {}
+  '@mdn/browser-compat-data@5.6.11': {}
 
   '@mischnic/json-sourcemap@0.1.1':
     dependencies:
@@ -3069,11 +3069,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-polyfill-custom@1.0.126(@babel/core@7.26.0):
+  babel-plugin-polyfill-custom@1.0.127(@babel/core@7.26.0):
     dependencies:
       '@babel/core': 7.26.0
       '@babel/helper-define-polyfill-provider': 0.6.2(@babel/core@7.26.0)
-      '@mdn/browser-compat-data': 5.6.10
+      '@mdn/browser-compat-data': 5.6.11
       fast-json-stable-stringify: 2.1.0
       lodash.get: 4.4.2
       semver: 7.6.3
