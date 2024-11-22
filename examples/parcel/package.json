@@ -15,7 +15,7 @@
     "@babel/preset-env": "7.26.0",
     "@parcel/config-default": "2.13.0",
     "@parcel/resolver-default": "2.13.0",
-    "babel-plugin-polyfill-custom": "^1.0.132",
+    "babel-plugin-polyfill-custom": "^1.0.133",
     "parcel": "2.13.0",
     "parcel-resolver-data-uri": "file:./utils/parcel-resolver-data-uri",
     "process": "0.11.10"
