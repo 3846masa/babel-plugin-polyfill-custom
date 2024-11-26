@@ -17,8 +17,8 @@ importers:
         specifier: 0.6.3
         version: 0.6.3(@babel/core@7.26.0)
       '@mdn/browser-compat-data':
-        specifier: 5.6.17
-        version: 5.6.17
+        specifier: 5.6.18
+        version: 5.6.18
       fast-json-stable-stringify:
         specifier: 2.1.0
         version: 2.1.0
@@ -479,8 +479,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@mdn/browser-compat-data@5.6.17':
-    resolution: {integrity: sha512-Cik21uEp29W9YcRiWHkZM1SEHIinxLIb6EzmPIj7Hc8qPoqMW4oJ5bpDBNl+CkEjvtblKrp94b1cTa4opaNQDA==}
+  '@mdn/browser-compat-data@5.6.18':
+    resolution: {integrity: sha512-WCQcQGyydquw7NXPL2NopMCgmUvIQDG7KM/IGR4PMJSDH5SHZKXUDEF6rdpGWj0MtcjQseOCl/hjzYzj0fMMeA==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -3561,7 +3561,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@mdn/browser-compat-data@5.6.17': {}
+  '@mdn/browser-compat-data@5.6.18': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
