@@ -15,7 +15,7 @@
     "babel-loader": "9.2.1",
     "babel-plugin-polyfill-custom": "^1.0.137",
     "circular-dependency-plugin": "5.2.2",
-    "webpack": "5.96.1",
+    "webpack": "5.97.0",
     "webpack-cli": "5.1.4"
   }
 }
