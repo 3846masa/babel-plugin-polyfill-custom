@@ -16,7 +16,7 @@
     "@rollup/plugin-commonjs": "28.0.2",
     "@rollup/plugin-data-uri": "1.0.3",
     "@rollup/plugin-node-resolve": "15.3.1",
-    "babel-plugin-polyfill-custom": "^1.0.140",
+    "babel-plugin-polyfill-custom": "^1.0.141",
     "rollup": "4.29.1"
   }
 }
