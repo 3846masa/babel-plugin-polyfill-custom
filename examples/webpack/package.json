@@ -13,7 +13,7 @@
     "@babel/core": "7.26.9",
     "@babel/preset-env": "7.26.9",
     "babel-loader": "9.2.1",
-    "babel-plugin-polyfill-custom": "^1.0.152",
+    "babel-plugin-polyfill-custom": "^1.0.153",
     "circular-dependency-plugin": "5.2.2",
     "webpack": "5.98.0",
     "webpack-cli": "6.0.1"
