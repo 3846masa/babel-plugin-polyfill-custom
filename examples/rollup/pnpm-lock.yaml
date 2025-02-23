@@ -40,8 +40,8 @@ importers:
         specifier: 16.0.0
         version: 16.0.0(rollup@4.34.8)
       babel-plugin-polyfill-custom:
-        specifier: ^1.0.152
-        version: 1.0.152(@babel/core@7.26.9)
+        specifier: ^1.0.153
+        version: 1.0.153(@babel/core@7.26.9)
       rollup:
         specifier: 4.34.8
         version: 4.34.8
@@ -725,8 +725,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
-  babel-plugin-polyfill-custom@1.0.152:
-    resolution: {integrity: sha512-KSrZv8mMmhFV35Kjzlvdik8aDK64JqZRyxitEyFjJP0A4VfbYaHtHVRJNbndVUc6Psn3o+7iuICXXQ6uF8fJnw==}
+  babel-plugin-polyfill-custom@1.0.153:
+    resolution: {integrity: sha512-3ekG4o1c+IiXtG3GwW0rKZJefOLZOVrmX8HdZ3y4wdqf44NNF28JhdQOho+hro7mMjdyNV2QU5n/dO76KNhdnA==}
     peerDependencies:
       '@babel/core': '>=7.0.0'
 
@@ -907,8 +907,8 @@ packages:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
 
-  semver@7.6.3:
-    resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
+  semver@7.7.1:
+    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1742,14 +1742,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-polyfill-custom@1.0.152(@babel/core@7.26.9):
+  babel-plugin-polyfill-custom@1.0.153(@babel/core@7.26.9):
     dependencies:
       '@babel/core': 7.26.9
       '@babel/helper-define-polyfill-provider': 0.6.3(@babel/core@7.26.9)
       '@mdn/browser-compat-data': 5.6.39
       fast-json-stable-stringify: 2.1.0
       lodash.get: 4.4.2
-      semver: 7.6.3
+      semver: 7.7.1
     transitivePeerDependencies:
       - supports-color
 
@@ -1912,7 +1912,7 @@ snapshots:
 
   semver@6.3.1: {}
 
-  semver@7.6.3: {}
+  semver@7.7.1: {}
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
