@@ -57,7 +57,7 @@
     "jest": "29.7.0",
     "semantic-release": "22.0.12",
     "ts-jest": "29.2.6",
-    "typescript": "5.7.3"
+    "typescript": "5.8.2"
   },
   "peerDependencies": {
     "@babel/core": ">=7.0.0"
