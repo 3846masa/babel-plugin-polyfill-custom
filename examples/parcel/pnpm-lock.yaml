@@ -34,8 +34,8 @@ importers:
         specifier: 2.14.1
         version: 2.14.1(@parcel/core@2.14.1(@swc/helpers@0.5.3))
       babel-plugin-polyfill-custom:
-        specifier: ^1.0.158
-        version: 1.0.158(@babel/core@7.26.10)
+        specifier: ^1.0.160
+        version: 1.0.160(@babel/core@7.26.10)
       parcel:
         specifier: 2.14.1
         version: 2.14.1(@swc/helpers@0.5.3)(srcset@4.0.0)
@@ -88,8 +88,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
 
-  '@babel/helper-define-polyfill-provider@0.6.3':
-    resolution: {integrity: sha512-HK7Bi+Hj6H+VTHA3ZvBis7V/6hu9QuTrnMXNybfUf2iiuU/N97I8VjB+KbhFF8Rld/Lx5MzoCwPCpPjfK+n8Cg==}
+  '@babel/helper-define-polyfill-provider@0.6.4':
+    resolution: {integrity: sha512-jljfR1rGnXXNWnmQg2K3+bvhkxB51Rl32QRaOTuwwjviGrHzIbSc8+x9CpraDtbT7mfyjXObULP4w/adunNwAw==}
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
@@ -591,8 +591,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@mdn/browser-compat-data@5.7.3':
-    resolution: {integrity: sha512-ckygcngv0i7Qe0yOzzge/K7Gr5dnk2jNm/AYdqUd1ZTGa9pIEdDuVyWmL3bDU/NdJ8FtdSAjng98YfUuou9Csw==}
+  '@mdn/browser-compat-data@5.7.4':
+    resolution: {integrity: sha512-d4rta1K2i3oEDYMXkIvv9S/+UJRdoYU59k9VkNn+2lzN5jpw7rDyiU5W5ALaFu1saDuqp/+JDig0JpUpHy8WvQ==}
 
   '@mischnic/json-sourcemap@0.1.1':
     resolution: {integrity: sha512-iA7+tyVqfrATAIsIRWQG+a7ZLLD0VaOCKV2Wd/v4mqIU3J9c4jx9p7S0nw1XH3gJCKNBOOwACOPYYSUu9pgT+w==}
@@ -1048,8 +1048,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
-  babel-plugin-polyfill-custom@1.0.158:
-    resolution: {integrity: sha512-TdRJ7YZR++nM7UguVPSNlGpvfd1zfjwHe9U9v9FUk+bSox/EiNhcqp7BtxjfT1+EmYy2MOpkSVoosI0gyvbJiQ==}
+  babel-plugin-polyfill-custom@1.0.160:
+    resolution: {integrity: sha512-rUHP2vBXhlMJt42R5o3oteVnVW3I1FNE5mJCCpfCkboV00rl+p0iBFaEGhqrkb7ZVoMAYGlPm7sRkd33Eg0Z5Q==}
     peerDependencies:
       '@babel/core': '>=7.0.0'
 
@@ -1688,7 +1688,7 @@ snapshots:
       regexpu-core: 6.1.1
       semver: 6.3.1
 
-  '@babel/helper-define-polyfill-provider@0.6.3(@babel/core@7.26.10)':
+  '@babel/helper-define-polyfill-provider@0.6.4(@babel/core@7.26.10)':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/helper-compilation-targets': 7.26.5
@@ -2300,7 +2300,7 @@ snapshots:
   '@lmdb/lmdb-win32-x64@2.8.5':
     optional: true
 
-  '@mdn/browser-compat-data@5.7.3': {}
+  '@mdn/browser-compat-data@5.7.4': {}
 
   '@mischnic/json-sourcemap@0.1.1':
     dependencies:
@@ -3048,7 +3048,7 @@ snapshots:
     dependencies:
       '@babel/compat-data': 7.26.8
       '@babel/core': 7.26.10
-      '@babel/helper-define-polyfill-provider': 0.6.3(@babel/core@7.26.10)
+      '@babel/helper-define-polyfill-provider': 0.6.4(@babel/core@7.26.10)
       semver: 6.3.1
     transitivePeerDependencies:
       - supports-color
@@ -3056,16 +3056,16 @@ snapshots:
   babel-plugin-polyfill-corejs3@0.11.1(@babel/core@7.26.10):
     dependencies:
       '@babel/core': 7.26.10
-      '@babel/helper-define-polyfill-provider': 0.6.3(@babel/core@7.26.10)
+      '@babel/helper-define-polyfill-provider': 0.6.4(@babel/core@7.26.10)
       core-js-compat: 3.40.0
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-polyfill-custom@1.0.158(@babel/core@7.26.10):
+  babel-plugin-polyfill-custom@1.0.160(@babel/core@7.26.10):
     dependencies:
       '@babel/core': 7.26.10
-      '@babel/helper-define-polyfill-provider': 0.6.3(@babel/core@7.26.10)
-      '@mdn/browser-compat-data': 5.7.3
+      '@babel/helper-define-polyfill-provider': 0.6.4(@babel/core@7.26.10)
+      '@mdn/browser-compat-data': 5.7.4
       fast-json-stable-stringify: 2.1.0
       lodash.get: 4.4.2
       semver: 7.7.1
@@ -3075,7 +3075,7 @@ snapshots:
   babel-plugin-polyfill-regenerator@0.6.1(@babel/core@7.26.10):
     dependencies:
       '@babel/core': 7.26.10
-      '@babel/helper-define-polyfill-provider': 0.6.3(@babel/core@7.26.10)
+      '@babel/helper-define-polyfill-provider': 0.6.4(@babel/core@7.26.10)
     transitivePeerDependencies:
       - supports-color
 
