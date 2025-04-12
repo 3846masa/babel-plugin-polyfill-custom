@@ -17,6 +17,6 @@
     "@rollup/plugin-data-uri": "1.0.3",
     "@rollup/plugin-node-resolve": "16.0.1",
     "babel-plugin-polyfill-custom": "^1.0.161",
-    "rollup": "4.39.0"
+    "rollup": "4.40.0"
   }
 }
