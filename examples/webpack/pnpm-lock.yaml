@@ -31,8 +31,8 @@ importers:
         specifier: 10.0.0
         version: 10.0.0(@babel/core@7.27.1)(webpack@5.99.8)
       babel-plugin-polyfill-custom:
-        specifier: ^1.0.161
-        version: 1.0.161(@babel/core@7.27.1)
+        specifier: ^1.0.162
+        version: 1.0.162(@babel/core@7.27.1)
       circular-dependency-plugin:
         specifier: 5.2.2
         version: 5.2.2(webpack@5.99.8)
@@ -694,8 +694,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
-  babel-plugin-polyfill-custom@1.0.161:
-    resolution: {integrity: sha512-FmUzNmCgTG0cYQDZ07RgCRtfjvG27tMm6WlBLqvQYEwd63x7ScSrka7tU6zwuNEZ9dA3rv+ML7wP9Gg817GC+Q==}
+  babel-plugin-polyfill-custom@1.0.162:
+    resolution: {integrity: sha512-8mfzXsOoEYswzEZkb/YwLVfdLUONR5xn3SPuOSag1omSVmtpwVrozEO/3/E2lyKm7qS85uTHSGKjuUzxNaHKNg==}
     peerDependencies:
       '@babel/core': '>=7.0.0'
 
@@ -1038,8 +1038,8 @@ packages:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
 
-  semver@7.7.1:
-    resolution: {integrity: sha512-hlq8tAfn0m/61p4BVRcPzIGr6LKiMwo4VM6dGi6pt4qcRkmNzTcWq6eCEjEh+qXjkMDvPlOFFSGwQjoEa6gyMA==}
+  semver@7.7.2:
+    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2011,14 +2011,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-polyfill-custom@1.0.161(@babel/core@7.27.1):
+  babel-plugin-polyfill-custom@1.0.162(@babel/core@7.27.1):
     dependencies:
       '@babel/core': 7.27.1
       '@babel/helper-define-polyfill-provider': 0.6.4(@babel/core@7.27.1)
       '@mdn/browser-compat-data': 5.7.6
       fast-json-stable-stringify: 2.1.0
       lodash.get: 4.4.2
-      semver: 7.7.1
+      semver: 7.7.2
     transitivePeerDependencies:
       - supports-color
 
@@ -2295,7 +2295,7 @@ snapshots:
 
   semver@6.3.1: {}
 
-  semver@7.7.1: {}
+  semver@7.7.2: {}
 
   serialize-javascript@6.0.2:
     dependencies:
