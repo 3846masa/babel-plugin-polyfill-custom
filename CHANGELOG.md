@@ -1,3 +1,21 @@
+# [2.0.0](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v1.0.162...v2.0.0) (2025-05-18)
+
+
+### Bug Fixes
+
+* **npm:** update dependency @mdn/browser-compat-data to v6 ([#1229](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1229)) ([6a817c4](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/6a817c4f5b2708411580d521dc6b7b55d27640c1))
+
+
+### chore
+
+* bump supported node version ([#1262](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1262)) ([30d6362](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/30d63623c4820699165c82d5f22f94b9d4edb3b4))
+
+
+### BREAKING CHANGES
+
+* Node.js v18 is no longer supported.
+* **npm:** If the version is below the clearly supported range as specified by [the ranged version in `@mdn/browser-compat-data`](https://github.com/mdn/browser-compat-data/blob/v6.0.0/schemas/compat-data-schema.md#ranged-versions-), it is treated as unsupported, and polyfill is injected.
+
 ## [1.0.162](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v1.0.161...v1.0.162) (2025-05-16)
 
 
