@@ -39,7 +39,7 @@
     "semver": "7.7.2"
   },
   "devDependencies": {
-    "@3846masa/configs": "github:3846masa/configs#08ba2a3a3e0ec72be611e397595c56a5292ac4c9",
+    "@3846masa/configs": "github:3846masa/configs#a13a429a23ae1af89c141e68cd8e58091595993c",
     "@babel/core": "7.27.1",
     "@jest/globals": "29.7.0",
     "@semantic-release/changelog": "6.0.3",
@@ -49,7 +49,6 @@
     "@semantic-release/npm": "12.0.1",
     "@semantic-release/release-notes-generator": "14.0.3",
     "@types/babel__core": "7.20.5",
-    "@types/eslint": "9.6.1",
     "@types/lodash.get": "4.4.9",
     "@types/node": "20.17.47",
     "@types/semver": "7.7.0",

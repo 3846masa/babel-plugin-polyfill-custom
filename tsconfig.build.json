@@ -2,6 +2,7 @@
   "compilerOptions": {
     "declaration": false,
     "module": "CommonJS",
+    "moduleResolution": "node10",
     "noEmit": false,
     "outDir": "lib/",
     "rootDir": "src/"
