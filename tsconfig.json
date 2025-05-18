@@ -2,7 +2,8 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "lib": ["ESNext"],
-    "module": "CommonJS",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "noEmit": true,
     "paths": {
       "@mdn/browser-compat-data": ["./src/types/mdn__browser-compat-data"]
