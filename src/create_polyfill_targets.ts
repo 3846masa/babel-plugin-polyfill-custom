@@ -23,17 +23,26 @@ export function createPolyfillTargets(options: PluginOptions) {
         }
 
         const [statement] = [support[mdnBrowserName]].flat();
-        if (statement?.flags != null) {
+        if (statement == null || statement.flags != null) {
           continue;
         }
 
-        let versionAdded: string | null = null;
-
-        if (statement?.version_added === true || (statement?.version_added || '').startsWith('≤')) {
-          versionAdded = '1';
-        } else if (typeof statement?.version_added === 'string' && statement.version_added !== 'preview') {
-          versionAdded = statement.version_added;
-        }
+        const versionAdded: string | null = (() => {
+          if (
+            statement.version_added == null ||
+            statement.version_added === false ||
+            statement.version_added === 'preview'
+          ) {
+            return null;
+          }
+          if (statement.version_added === true) {
+            return '1';
+          }
+          if (statement.version_added.startsWith('≤')) {
+            return statement.version_added.slice(1);
+          }
+          return statement.version_added;
+        })();
 
         const versionAddedSemver = semver.coerce(versionAdded);
         if (versionAdded == null || versionAddedSemver == null) {
