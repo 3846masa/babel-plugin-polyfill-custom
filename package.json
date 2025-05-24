@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-polyfill-custom",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Yet another babel plugin that lets you freely customize polyfills.",
   "keywords": [
     "babel",
