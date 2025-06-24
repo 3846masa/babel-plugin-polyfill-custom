@@ -17,8 +17,8 @@ importers:
         specifier: 0.6.4
         version: 0.6.4(@babel/core@7.27.3)
       '@mdn/browser-compat-data':
-        specifier: 6.0.24
-        version: 6.0.24
+        specifier: 6.0.25
+        version: 6.0.25
       fast-json-stable-stringify:
         specifier: 2.1.0
         version: 2.1.0
@@ -502,8 +502,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@mdn/browser-compat-data@6.0.24':
-    resolution: {integrity: sha512-Z26Qu1EyLb9cQuEP7nB/0W9EsTvDtJpYkOVPf4hWiyIA/qTgqwDoMPzh5azkz2uhUlSYY6TAokR+2TT7958urg==}
+  '@mdn/browser-compat-data@6.0.25':
+    resolution: {integrity: sha512-S2XYLTeiJIKHa1nTghEKPzGktxc1fGMfIbNb/A6BwXUwl97FrLJyLYkLfvWHZv2kLCiMZekC/5hpeoLM/qvreA==}
 
   '@napi-rs/wasm-runtime@0.2.11':
     resolution: {integrity: sha512-9DPkXtvHydrcOsopiYpUgPHpmj0HWZKMUnL2dZqpvC42lsratuBG06V5ipyno0fUek5VlFsNQ+AcFATSrJXgMA==}
@@ -3802,7 +3802,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.4.15
 
-  '@mdn/browser-compat-data@6.0.24': {}
+  '@mdn/browser-compat-data@6.0.25': {}
 
   '@napi-rs/wasm-runtime@0.2.11':
     dependencies:
