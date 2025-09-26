@@ -30,8 +30,8 @@ importers:
         version: 7.7.2
     devDependencies:
       '@3846masa/configs':
-        specifier: github:3846masa/configs#84ca6b2f62b91dd67ad7a8ed475996f6797ce90a
-        version: https://codeload.github.com/3846masa/configs/tar.gz/84ca6b2f62b91dd67ad7a8ed475996f6797ce90a(@typescript-eslint/parser@8.44.0(eslint@9.36.0)(typescript@5.9.2))
+        specifier: github:3846masa/configs#7ec282b7b4b00f1178eebd16951f13369a3cd9f1
+        version: https://codeload.github.com/3846masa/configs/tar.gz/7ec282b7b4b00f1178eebd16951f13369a3cd9f1(@typescript-eslint/parser@8.44.0(eslint@9.36.0)(typescript@5.9.2))
       '@babel/core':
         specifier: 7.28.3
         version: 7.28.3
@@ -86,8 +86,8 @@ importers:
 
 packages:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/84ca6b2f62b91dd67ad7a8ed475996f6797ce90a':
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/84ca6b2f62b91dd67ad7a8ed475996f6797ce90a}
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/7ec282b7b4b00f1178eebd16951f13369a3cd9f1':
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/7ec282b7b4b00f1178eebd16951f13369a3cd9f1}
     version: 1.0.750
 
   '@aashutoshrathi/word-wrap@1.2.6':
@@ -684,8 +684,8 @@ packages:
   '@sinonjs/fake-timers@13.0.5':
     resolution: {integrity: sha512-36/hTbH2uaWuGVERyC6da9YwGWnzUZXuPro/F2LfsdOsLnCojz/iSH8MxUt/FD2S5XBSVPhmArFUXcpCQ2Hkiw==}
 
-  '@tsconfig/strictest@2.0.5':
-    resolution: {integrity: sha512-ec4tjL2Rr0pkZ5hww65c+EEPYwxOi4Ryv+0MtjeaSQRJyq322Q27eOQiFbuNgw2hpL4hB1/W/HBGk3VKS43osg==}
+  '@tsconfig/strictest@2.0.6':
+    resolution: {integrity: sha512-tPOhmDhIUcDjvpDDYyiUdssP84Eqm7n5KxJe5J3/g+s6xoDIPAf+SIn06dhw7VkhxIvLOnhDDrX7tsqMHNEhDg==}
 
   '@tybys/wasm-util@0.9.0':
     resolution: {integrity: sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==}
@@ -3328,10 +3328,10 @@ packages:
 
 snapshots:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/84ca6b2f62b91dd67ad7a8ed475996f6797ce90a(@typescript-eslint/parser@8.44.0(eslint@9.36.0)(typescript@5.9.2))':
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/7ec282b7b4b00f1178eebd16951f13369a3cd9f1(@typescript-eslint/parser@8.44.0(eslint@9.36.0)(typescript@5.9.2))':
     dependencies:
       '@eslint/js': 9.36.0
-      '@tsconfig/strictest': 2.0.5
+      '@tsconfig/strictest': 2.0.6
       better-typescript-lib: 2.12.0(typescript@5.9.2)
       eslint: 9.36.0
       eslint-config-prettier: 10.1.8(eslint@9.36.0)
@@ -4125,7 +4125,7 @@ snapshots:
     dependencies:
       '@sinonjs/commons': 3.0.1
 
-  '@tsconfig/strictest@2.0.5': {}
+  '@tsconfig/strictest@2.0.6': {}
 
   '@tybys/wasm-util@0.9.0':
     dependencies:
