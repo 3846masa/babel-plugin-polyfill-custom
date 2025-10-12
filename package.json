@@ -50,7 +50,7 @@
     "@semantic-release/release-notes-generator": "14.1.0",
     "@types/babel__core": "7.20.5",
     "@types/lodash.get": "4.4.9",
-    "@types/node": "20.19.20",
+    "@types/node": "20.19.21",
     "@types/semver": "7.7.1",
     "dedent": "1.7.0",
     "jest": "30.2.0",
