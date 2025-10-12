@@ -31,8 +31,8 @@ importers:
         specifier: 10.0.0
         version: 10.0.0(@babel/core@7.28.4)(webpack@5.102.1)
       babel-plugin-polyfill-custom:
-        specifier: ^2.0.28
-        version: 2.0.28(@babel/core@7.28.4)
+        specifier: ^2.0.29
+        version: 2.0.29(@babel/core@7.28.4)
       circular-dependency-plugin:
         specifier: 5.2.2
         version: 5.2.2(webpack@5.102.1)
@@ -704,8 +704,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
-  babel-plugin-polyfill-custom@2.0.28:
-    resolution: {integrity: sha512-ojNylpI4nNFMvXQOOFdOyacL1aVGfND2jgJeev0+xAOXjCN91hYWYFDxg/g1KAqyYhORD3lRWlHnPT9MVK0IMQ==}
+  babel-plugin-polyfill-custom@2.0.29:
+    resolution: {integrity: sha512-QxuxvjgJpZkFy3ApZOrMV0EkC/sZxFotJEyQ1NtNl2jMa3z1s1bEl5iIe4za/DpV7O0jiyWZYrNI8sOIXW6OEg==}
     peerDependencies:
       '@babel/core': '>=7.0.0'
 
@@ -1050,8 +1050,8 @@ packages:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
 
-  semver@7.7.2:
-    resolution: {integrity: sha512-RF0Fw+rO5AMf9MAyaRXI4AV0Ulj5lMHqVxxdSgiVbixSCXoEmmX/jk0CuJw4+3SqroYO9VoUh+HcuJivvtJemA==}
+  semver@7.7.3:
+    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2041,14 +2041,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-polyfill-custom@2.0.28(@babel/core@7.28.4):
+  babel-plugin-polyfill-custom@2.0.29(@babel/core@7.28.4):
     dependencies:
       '@babel/core': 7.28.4
       '@babel/helper-define-polyfill-provider': 0.6.5(@babel/core@7.28.4)
       '@mdn/browser-compat-data': 6.1.5
       fast-json-stable-stringify: 2.1.0
       lodash.get: 4.4.2
-      semver: 7.7.2
+      semver: 7.7.3
     transitivePeerDependencies:
       - supports-color
 
@@ -2326,7 +2326,7 @@ snapshots:
 
   semver@6.3.1: {}
 
-  semver@7.7.2: {}
+  semver@7.7.3: {}
 
   serialize-javascript@6.0.2:
     dependencies:
