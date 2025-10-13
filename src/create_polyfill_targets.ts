@@ -28,15 +28,8 @@ export function createPolyfillTargets(options: PluginOptions) {
         }
 
         const versionAdded: string | null = (() => {
-          if (
-            statement.version_added == null ||
-            statement.version_added === false ||
-            statement.version_added === 'preview'
-          ) {
+          if (statement.version_added === false || statement.version_added === 'preview') {
             return null;
-          }
-          if (statement.version_added === true) {
-            return '1';
           }
           if (statement.version_added.startsWith('≤')) {
             return statement.version_added.slice(1);
