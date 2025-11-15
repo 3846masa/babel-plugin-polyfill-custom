@@ -6,6 +6,7 @@ github:
   releaseName: 'Release v${version}'
   tokenRef: RELEASE_GITHUB_TOKEN
 npm:
+  publish: false
   skipChecks: true
 plugins:
   '@release-it/conventional-changelog':
