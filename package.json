@@ -47,6 +47,7 @@
     "@types/lodash.get": "4.4.9",
     "@types/node": "20.19.25",
     "@types/semver": "7.7.1",
+    "conventional-changelog-conventionalcommits": "9.1.0",
     "dedent": "1.7.0",
     "jest": "30.2.0",
     "release-it": "19.0.6",
@@ -56,5 +57,10 @@
   "peerDependencies": {
     "@babel/core": ">=7.0.0"
   },
-  "packageManager": "pnpm@10.21.0"
+  "packageManager": "pnpm@10.21.0",
+  "pnpm": {
+    "overrides": {
+      "conventional-changelog-conventionalcommits": "$conventional-changelog-conventionalcommits"
+    }
+  }
 }

@@ -79,6 +79,8 @@ jobs:
     needs:
       - passed
     runs-on: ubuntu-latest
+    concurrency:
+      group: release
     permissions:
       contents: read
       id-token: write
