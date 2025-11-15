@@ -1,5 +1,7 @@
 # Changelog
 
+## [2.0.40](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v2.0.39...v2.0.40) (2025-11-15)
+
 ## [2.0.39](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v2.0.38...v2.0.39) (2025-11-15)
 
 ### Bug Fixes
