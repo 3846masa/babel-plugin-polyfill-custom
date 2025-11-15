@@ -1,12 +1,11 @@
 git:
-  commitMessage: 'chore: release v${version}'
+  commitMessage: 'chore: release v${version} [skip ci]'
   pushArgs: ['--follow-tags', '--force']
 github:
   release: true
   releaseName: 'Release v${version}'
   tokenRef: RELEASE_GITHUB_TOKEN
 npm:
-  publish: false
   skipChecks: true
 plugins:
   '@release-it/conventional-changelog':
