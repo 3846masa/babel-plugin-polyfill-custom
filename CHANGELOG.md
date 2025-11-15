@@ -1,3 +1,11 @@
+# Changelog
+
+## [2.0.39](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v2.0.38...v2.0.39) (2025-11-15)
+
+### Bug Fixes
+
+* change in release flow (no code affected) ([#1546](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1546)) ([63b11c5](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/63b11c5b195d39d95b6e1e2cf79b8498f3823d13))
+
 ## [2.0.38](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v2.0.37...v2.0.38) (2025-11-13)
 
 
