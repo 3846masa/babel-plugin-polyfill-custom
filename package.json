@@ -28,7 +28,7 @@
     "lint:eslint": "eslint --max-warnings 0 .",
     "lint:prettier": "prettier --check .",
     "lint:tsc": "tsc --noEmit",
-    "semantic-release": "semantic-release",
+    "release": "release-it",
     "test": "jest"
   },
   "dependencies": {
@@ -42,29 +42,19 @@
     "@3846masa/configs": "github:3846masa/configs#fde6015cc9703c2aee5630993ba80e43ce7120ba",
     "@babel/core": "7.28.5",
     "@jest/globals": "30.2.0",
-    "@semantic-release/changelog": "6.0.3",
-    "@semantic-release/commit-analyzer": "13.0.1",
-    "@semantic-release/git": "10.0.1",
-    "@semantic-release/github": "11.0.6",
-    "@semantic-release/npm": "12.0.2",
-    "@semantic-release/release-notes-generator": "14.1.0",
+    "@release-it/conventional-changelog": "10.0.1",
     "@types/babel__core": "7.20.5",
     "@types/lodash.get": "4.4.9",
     "@types/node": "20.19.25",
     "@types/semver": "7.7.1",
     "dedent": "1.7.0",
     "jest": "30.2.0",
-    "semantic-release": "24.2.9",
+    "release-it": "19.0.6",
     "ts-jest": "29.4.5",
     "typescript": "5.9.3"
   },
   "peerDependencies": {
     "@babel/core": ">=7.0.0"
   },
-  "packageManager": "pnpm@10.21.0",
-  "pnpm": {
-    "patchedDependencies": {
-      "@semantic-release/git@10.0.1": "patches/@semantic-release__git@10.0.1.patch"
-    }
-  }
+  "packageManager": "pnpm@10.21.0"
 }
