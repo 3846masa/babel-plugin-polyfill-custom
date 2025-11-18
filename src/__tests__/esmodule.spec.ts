@@ -1,4 +1,4 @@
-import { expect, it } from '@jest/globals';
+import { expect, it } from 'vitest';
 import { transformAsync } from '@babel/core';
 import dedent from 'dedent';
 
