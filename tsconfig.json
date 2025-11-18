@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "checkJs": true,
     "esModuleInterop": true,
     "lib": ["ESNext"],
     "module": "NodeNext",
