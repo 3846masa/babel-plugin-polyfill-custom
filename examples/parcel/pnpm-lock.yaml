@@ -34,8 +34,8 @@ importers:
         specifier: 2.16.1
         version: 2.16.1(@parcel/core@2.16.1)
       babel-plugin-polyfill-custom:
-        specifier: ^2.0.44
-        version: 2.0.44(@babel/core@7.28.5)
+        specifier: ^2.0.45
+        version: 2.0.45(@babel/core@7.28.5)
       parcel:
         specifier: 2.16.1
         version: 2.16.1
@@ -591,8 +591,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@mdn/browser-compat-data@7.1.20':
-    resolution: {integrity: sha512-ICINlHmfC/D1XSeo4vFRILo/ZTcNF5GSqht6G1vFECqfzJijuRDSr4b+TrvIJpGDjsu7FchP5Ffx4+03WlUe3g==}
+  '@mdn/browser-compat-data@7.1.21':
+    resolution: {integrity: sha512-TJV2DMOLj1ZlpNoJAG8EfrdB8UUXzEV+emFf++dSbXKGQWUn9FG4zr6Dn/JvzPMZBoPKOOGcJHYJ304pWcwX1Q==}
 
   '@mischnic/json-sourcemap@0.1.1':
     resolution: {integrity: sha512-iA7+tyVqfrATAIsIRWQG+a7ZLLD0VaOCKV2Wd/v4mqIU3J9c4jx9p7S0nw1XH3gJCKNBOOwACOPYYSUu9pgT+w==}
@@ -1093,8 +1093,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
-  babel-plugin-polyfill-custom@2.0.44:
-    resolution: {integrity: sha512-iX4W5Ovlp+fG7SxRmR2bHBdezJEW//GCrfQmtqB+tq5frDwmXnFHAxku+FbB16jv0n1Vy770jTY5tCb6XZ0lFQ==}
+  babel-plugin-polyfill-custom@2.0.45:
+    resolution: {integrity: sha512-CWuunTgRq2H+taD1dFWuUK39hiYvmGn0pGZ5y//R2mKFc4n/ORzG82sEffJehRTxnoMdsM4uiqeMk1xUQmBDWg==}
     peerDependencies:
       '@babel/core': '>=7.0.0'
 
@@ -2212,7 +2212,7 @@ snapshots:
   '@lmdb/lmdb-win32-x64@2.8.5':
     optional: true
 
-  '@mdn/browser-compat-data@7.1.20': {}
+  '@mdn/browser-compat-data@7.1.21': {}
 
   '@mischnic/json-sourcemap@0.1.1':
     dependencies:
@@ -2965,11 +2965,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-polyfill-custom@2.0.44(@babel/core@7.28.5):
+  babel-plugin-polyfill-custom@2.0.45(@babel/core@7.28.5):
     dependencies:
       '@babel/core': 7.28.5
       '@babel/helper-define-polyfill-provider': 0.6.5(@babel/core@7.28.5)
-      '@mdn/browser-compat-data': 7.1.20
+      '@mdn/browser-compat-data': 7.1.21
       fast-json-stable-stringify: 2.1.0
       lodash.get: 4.4.2
       semver: 7.7.3
