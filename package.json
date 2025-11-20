@@ -41,7 +41,7 @@
   "devDependencies": {
     "@3846masa/configs": "github:3846masa/configs#183181d2b726e3971493a86b8871235cb7a9ca26",
     "@babel/core": "7.28.5",
-    "@release-it/conventional-changelog": "10.0.1",
+    "@release-it/conventional-changelog": "10.0.2",
     "@types/babel__core": "7.20.5",
     "@types/lodash.get": "4.4.9",
     "@types/node": "20.19.25",
