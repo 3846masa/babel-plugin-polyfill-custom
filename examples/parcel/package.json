@@ -13,10 +13,10 @@
   "devDependencies": {
     "@babel/core": "7.28.5",
     "@babel/preset-env": "7.28.5",
-    "@parcel/config-default": "2.16.1",
-    "@parcel/resolver-default": "2.16.1",
+    "@parcel/config-default": "2.16.3",
+    "@parcel/resolver-default": "2.16.3",
     "babel-plugin-polyfill-custom": "^2.0.45",
-    "parcel": "2.16.1",
+    "parcel": "2.16.3",
     "parcel-resolver-data-uri": "file:./utils/parcel-resolver-data-uri",
     "process": "0.11.10"
   }
