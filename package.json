@@ -48,7 +48,7 @@
     "@types/semver": "7.7.1",
     "conventional-changelog-conventionalcommits": "9.1.0",
     "dedent": "1.7.1",
-    "release-it": "19.2.1",
+    "release-it": "19.2.2",
     "typescript": "5.9.3",
     "vitest": "4.0.16"
   },
