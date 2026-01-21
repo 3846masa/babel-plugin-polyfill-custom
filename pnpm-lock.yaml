@@ -28,8 +28,8 @@ importers:
         version: 7.7.3
     devDependencies:
       '@3846masa/configs':
-        specifier: github:3846masa/configs#a09d2a373d96e54e133bd78f1f882fbfa834d05b
-        version: https://codeload.github.com/3846masa/configs/tar.gz/a09d2a373d96e54e133bd78f1f882fbfa834d05b(@typescript-eslint/parser@8.53.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)
+        specifier: github:3846masa/configs#a6b49fa98f52745e9c269f5d22325bbcd2a1fd7e
+        version: https://codeload.github.com/3846masa/configs/tar.gz/a6b49fa98f52745e9c269f5d22325bbcd2a1fd7e(@typescript-eslint/parser@8.53.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)
       '@babel/core':
         specifier: 7.28.6
         version: 7.28.6
@@ -66,9 +66,9 @@ importers:
 
 packages:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/a09d2a373d96e54e133bd78f1f882fbfa834d05b':
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/a09d2a373d96e54e133bd78f1f882fbfa834d05b}
-    version: 1.0.809
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/a6b49fa98f52745e9c269f5d22325bbcd2a1fd7e':
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/a6b49fa98f52745e9c269f5d22325bbcd2a1fd7e}
+    version: 1.0.810
 
   '@aashutoshrathi/word-wrap@1.2.6':
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
@@ -1381,8 +1381,8 @@ packages:
   destr@2.0.5:
     resolution: {integrity: sha512-ugFTXCtDZunbzasqBxrK93Ik/DRYsO6S/fedkWEMKqt04xZ4csmnmwGDBAb07QWNaGMAmnTIemsYZCksjATwsA==}
 
-  detect-indent@7.0.1:
-    resolution: {integrity: sha512-Mc7QhQ8s+cLrnUfU/Ji94vG/r8M26m8f++vyres4ZoojaRDpZ1eSIh/EpzLNwlWuvzSZ3UbDFspjFvTDXe6e/g==}
+  detect-indent@7.0.2:
+    resolution: {integrity: sha512-y+8xyqdGLL+6sh0tVeHcfP/QDd8gUgbasolJJpY7NgeQGSZ739bDtSiaiDgtoicy+mtYB81dKLxO9xRhCyIB3A==}
     engines: {node: '>=12.20'}
 
   detect-newline@4.0.1:
@@ -2290,8 +2290,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier-plugin-packagejson@2.5.21:
-    resolution: {integrity: sha512-d9ivsysb1SeRaKDhjf6Hi7jBGnP4TVsh7DeVi8N5HtHJ5vwD7YHcQIuy6jRkr2qGW/VKbrEVDWVMODuqcZuz8Q==}
+  prettier-plugin-packagejson@2.5.22:
+    resolution: {integrity: sha512-G6WalmoUssKF8ZXkni0+n4324K+gG143KPysSQNW+FrR0XyNb3BdRxchGC/Q1FE/F702p7/6KU7r4mv0WSWbzA==}
     peerDependencies:
       prettier: '>= 1.16.0'
     peerDependenciesMeta:
@@ -2476,8 +2476,8 @@ packages:
   sort-object-keys@2.0.1:
     resolution: {integrity: sha512-R89fO+z3x7hiKPXX5P0qim+ge6Y60AjtlW+QQpRozrrNcR1lw9Pkpm5MLB56HoNvdcLHL4wbpq16OcvGpEDJIg==}
 
-  sort-package-json@3.5.0:
-    resolution: {integrity: sha512-moY4UtptUuP5sPuu9H9dp8xHNel7eP5/Kz/7+90jTvC0IOiPH2LigtRM/aSFSxreaWoToHUVUpEV4a2tAs2oKQ==}
+  sort-package-json@3.6.0:
+    resolution: {integrity: sha512-fyJsPLhWvY7u2KsKPZn1PixbXp+1m7V8NWqU8CvgFRbMEX41Ffw1kD8n0CfJiGoaSfoAvbrqRRl/DcHO8omQOQ==}
     engines: {node: '>=20'}
     hasBin: true
 
@@ -2828,7 +2828,7 @@ packages:
 
 snapshots:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/a09d2a373d96e54e133bd78f1f882fbfa834d05b(@typescript-eslint/parser@8.53.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)':
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/a6b49fa98f52745e9c269f5d22325bbcd2a1fd7e(@typescript-eslint/parser@8.53.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)':
     dependencies:
       '@eslint/js': 9.39.2
       '@tsconfig/strictest': 2.0.8
@@ -2841,7 +2841,7 @@ snapshots:
       eslint-plugin-unicorn: 62.0.0(eslint@9.39.2(jiti@2.6.1))
       globals: 16.5.0
       prettier: 3.8.0
-      prettier-plugin-packagejson: 2.5.21(prettier@3.8.0)
+      prettier-plugin-packagejson: 2.5.22(prettier@3.8.0)
       prettier-plugin-sort-json: 4.2.0(prettier@3.8.0)
       typescript: 5.9.3
       typescript-eslint: 8.53.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
@@ -4120,7 +4120,7 @@ snapshots:
 
   destr@2.0.5: {}
 
-  detect-indent@7.0.1: {}
+  detect-indent@7.0.2: {}
 
   detect-newline@4.0.1: {}
 
@@ -5138,9 +5138,9 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier-plugin-packagejson@2.5.21(prettier@3.8.0):
+  prettier-plugin-packagejson@2.5.22(prettier@3.8.0):
     dependencies:
-      sort-package-json: 3.5.0
+      sort-package-json: 3.6.0
     optionalDependencies:
       prettier: 3.8.0
 
@@ -5395,9 +5395,9 @@ snapshots:
 
   sort-object-keys@2.0.1: {}
 
-  sort-package-json@3.5.0:
+  sort-package-json@3.6.0:
     dependencies:
-      detect-indent: 7.0.1
+      detect-indent: 7.0.2
       detect-newline: 4.0.1
       git-hooks-list: 4.1.1
       is-plain-obj: 4.1.0
