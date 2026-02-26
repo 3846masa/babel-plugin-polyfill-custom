@@ -29,19 +29,19 @@ importers:
         version: 7.29.0(@babel/core@7.29.0)
       babel-loader:
         specifier: 10.0.0
-        version: 10.0.0(@babel/core@7.29.0)(webpack@5.105.2)
+        version: 10.0.0(@babel/core@7.29.0)(webpack@5.105.3)
       babel-plugin-polyfill-custom:
         specifier: ^2.0.45
         version: 2.0.45(@babel/core@7.29.0)
       circular-dependency-plugin:
         specifier: 5.2.2
-        version: 5.2.2(webpack@5.105.2)
+        version: 5.2.2(webpack@5.105.3)
       webpack:
-        specifier: 5.105.2
-        version: 5.105.2(webpack-cli@6.0.1)
+        specifier: 5.105.3
+        version: 5.105.3(webpack-cli@6.0.1)
       webpack-cli:
         specifier: 6.0.1
-        version: 6.0.1(webpack@5.105.2)
+        version: 6.0.1(webpack@5.105.3)
 
 packages:
 
@@ -671,8 +671,8 @@ packages:
     peerDependencies:
       acorn: ^8.14.0
 
-  acorn@8.15.0:
-    resolution: {integrity: sha512-NZyJarBfL7nWwIq+FDL6Zp/yHEhePMNnnJ0y3qfieCrmNvYct8uvtiV41UvlSe6apAfk0fY1FbWx+NwfmpvtTg==}
+  acorn@8.16.0:
+    resolution: {integrity: sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==}
     engines: {node: '>=0.4.0'}
     hasBin: true
 
@@ -1165,12 +1165,12 @@ packages:
     resolution: {integrity: sha512-hXXvrjtx2PLYx4qruKl+kyRSLc52V+cCvMxRjmKwoA+CBbbF5GfIBtR6kCvl0fYGqTUPKB+1ktVmTHqMOzgCBg==}
     engines: {node: '>=18.0.0'}
 
-  webpack-sources@3.3.3:
-    resolution: {integrity: sha512-yd1RBzSGanHkitROoPFd6qsrxt+oFhg/129YzheDGqeustzX0vTZJZsSsQjVQC4yzBQ56K55XU8gaNCtIzOnTg==}
+  webpack-sources@3.3.4:
+    resolution: {integrity: sha512-7tP1PdV4vF+lYPnkMR0jMY5/la2ub5Fc/8VQrrU+lXkiM6C4TjVfGw7iKfyhnTQOsD+6Q/iKw0eFciziRgD58Q==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.105.2:
-    resolution: {integrity: sha512-dRXm0a2qcHPUBEzVk8uph0xWSjV/xZxenQQbLwnwP7caQCYpqG1qddwlyEkIDkYn0K8tvmcrZ+bOrzoQ3HxCDw==}
+  webpack@5.105.3:
+    resolution: {integrity: sha512-LLBBA4oLmT7sZdHiYE/PeVuifOxYyE2uL/V+9VQP7YSYdJU7bSf7H8bZRRxW8kEPMkmVjnrXmoR3oejIdX0xbg==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -1989,20 +1989,20 @@ snapshots:
       '@webassemblyjs/ast': 1.14.1
       '@xtuc/long': 4.2.2
 
-  '@webpack-cli/configtest@3.0.1(webpack-cli@6.0.1)(webpack@5.105.2)':
+  '@webpack-cli/configtest@3.0.1(webpack-cli@6.0.1)(webpack@5.105.3)':
     dependencies:
-      webpack: 5.105.2(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.105.2)
+      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack@5.105.3)
 
-  '@webpack-cli/info@3.0.1(webpack-cli@6.0.1)(webpack@5.105.2)':
+  '@webpack-cli/info@3.0.1(webpack-cli@6.0.1)(webpack@5.105.3)':
     dependencies:
-      webpack: 5.105.2(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.105.2)
+      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack@5.105.3)
 
-  '@webpack-cli/serve@3.0.1(webpack-cli@6.0.1)(webpack@5.105.2)':
+  '@webpack-cli/serve@3.0.1(webpack-cli@6.0.1)(webpack@5.105.3)':
     dependencies:
-      webpack: 5.105.2(webpack-cli@6.0.1)
-      webpack-cli: 6.0.1(webpack@5.105.2)
+      webpack: 5.105.3(webpack-cli@6.0.1)
+      webpack-cli: 6.0.1(webpack@5.105.3)
 
   '@xtuc/ieee754@1.2.0': {}
 
@@ -2012,11 +2012,11 @@ snapshots:
     dependencies:
       event-target-shim: 5.0.1
 
-  acorn-import-phases@1.0.3(acorn@8.15.0):
+  acorn-import-phases@1.0.3(acorn@8.16.0):
     dependencies:
-      acorn: 8.15.0
+      acorn: 8.16.0
 
-  acorn@8.15.0: {}
+  acorn@8.16.0: {}
 
   ajv-formats@2.1.1(ajv@8.12.0):
     optionalDependencies:
@@ -2034,11 +2034,11 @@ snapshots:
       require-from-string: 2.0.2
       uri-js: 4.4.1
 
-  babel-loader@10.0.0(@babel/core@7.29.0)(webpack@5.105.2):
+  babel-loader@10.0.0(@babel/core@7.29.0)(webpack@5.105.3):
     dependencies:
       '@babel/core': 7.29.0
       find-up: 5.0.0
-      webpack: 5.105.2(webpack-cli@6.0.1)
+      webpack: 5.105.3(webpack-cli@6.0.1)
 
   babel-plugin-polyfill-corejs2@0.4.15(@babel/core@7.29.0):
     dependencies:
@@ -2091,9 +2091,9 @@ snapshots:
 
   chrome-trace-event@1.0.3: {}
 
-  circular-dependency-plugin@5.2.2(webpack@5.105.2):
+  circular-dependency-plugin@5.2.2(webpack@5.105.3):
     dependencies:
-      webpack: 5.105.2(webpack-cli@6.0.1)
+      webpack: 5.105.3(webpack-cli@6.0.1)
 
   clone-deep@4.0.1:
     dependencies:
@@ -2373,19 +2373,19 @@ snapshots:
 
   tapable@2.3.0: {}
 
-  terser-webpack-plugin@5.3.16(webpack@5.105.2):
+  terser-webpack-plugin@5.3.16(webpack@5.105.3):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.29
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       serialize-javascript: 6.0.2
       terser: 5.39.0
-      webpack: 5.105.2(webpack-cli@6.0.1)
+      webpack: 5.105.3(webpack-cli@6.0.1)
 
   terser@5.39.0:
     dependencies:
       '@jridgewell/source-map': 0.3.5
-      acorn: 8.15.0
+      acorn: 8.16.0
       commander: 2.20.3
       source-map-support: 0.5.21
 
@@ -2417,12 +2417,12 @@ snapshots:
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.11
 
-  webpack-cli@6.0.1(webpack@5.105.2):
+  webpack-cli@6.0.1(webpack@5.105.3):
     dependencies:
       '@discoveryjs/json-ext': 0.6.3
-      '@webpack-cli/configtest': 3.0.1(webpack-cli@6.0.1)(webpack@5.105.2)
-      '@webpack-cli/info': 3.0.1(webpack-cli@6.0.1)(webpack@5.105.2)
-      '@webpack-cli/serve': 3.0.1(webpack-cli@6.0.1)(webpack@5.105.2)
+      '@webpack-cli/configtest': 3.0.1(webpack-cli@6.0.1)(webpack@5.105.3)
+      '@webpack-cli/info': 3.0.1(webpack-cli@6.0.1)(webpack@5.105.3)
+      '@webpack-cli/serve': 3.0.1(webpack-cli@6.0.1)(webpack@5.105.3)
       colorette: 2.0.20
       commander: 12.1.0
       cross-spawn: 7.0.3
@@ -2431,7 +2431,7 @@ snapshots:
       import-local: 3.1.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.105.2(webpack-cli@6.0.1)
+      webpack: 5.105.3(webpack-cli@6.0.1)
       webpack-merge: 6.0.1
 
   webpack-merge@6.0.1:
@@ -2440,9 +2440,9 @@ snapshots:
       flat: 5.0.2
       wildcard: 2.0.1
 
-  webpack-sources@3.3.3: {}
+  webpack-sources@3.3.4: {}
 
-  webpack@5.105.2(webpack-cli@6.0.1):
+  webpack@5.105.3(webpack-cli@6.0.1):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.8
@@ -2450,8 +2450,8 @@ snapshots:
       '@webassemblyjs/ast': 1.14.1
       '@webassemblyjs/wasm-edit': 1.14.1
       '@webassemblyjs/wasm-parser': 1.14.1
-      acorn: 8.15.0
-      acorn-import-phases: 1.0.3(acorn@8.15.0)
+      acorn: 8.16.0
+      acorn-import-phases: 1.0.3(acorn@8.16.0)
       browserslist: 4.28.1
       chrome-trace-event: 1.0.3
       enhanced-resolve: 5.19.0
@@ -2466,11 +2466,11 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.0
-      terser-webpack-plugin: 5.3.16(webpack@5.105.2)
+      terser-webpack-plugin: 5.3.16(webpack@5.105.3)
       watchpack: 2.5.1
-      webpack-sources: 3.3.3
+      webpack-sources: 3.3.4
     optionalDependencies:
-      webpack-cli: 6.0.1(webpack@5.105.2)
+      webpack-cli: 6.0.1(webpack@5.105.3)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
