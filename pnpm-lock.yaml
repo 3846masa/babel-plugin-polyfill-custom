@@ -28,8 +28,8 @@ importers:
         version: 7.7.4
     devDependencies:
       '@3846masa/configs':
-        specifier: github:3846masa/configs#0f25dd4231a04c0c796175e91aefb93bda56f076
-        version: https://codeload.github.com/3846masa/configs/tar.gz/0f25dd4231a04c0c796175e91aefb93bda56f076(@typescript-eslint/parser@8.56.0(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)
+        specifier: github:3846masa/configs#e92347a8818b0e4f20b6285df827f65a7bbd9b43
+        version: https://codeload.github.com/3846masa/configs/tar.gz/e92347a8818b0e4f20b6285df827f65a7bbd9b43(@typescript-eslint/parser@8.56.0(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)
       '@babel/core':
         specifier: 7.29.0
         version: 7.29.0
@@ -66,9 +66,9 @@ importers:
 
 packages:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/0f25dd4231a04c0c796175e91aefb93bda56f076':
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/0f25dd4231a04c0c796175e91aefb93bda56f076}
-    version: 1.0.827
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/e92347a8818b0e4f20b6285df827f65a7bbd9b43':
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/e92347a8818b0e4f20b6285df827f65a7bbd9b43}
+    version: 1.0.828
 
   '@aashutoshrathi/word-wrap@1.2.6':
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
@@ -1153,6 +1153,7 @@ packages:
   basic-ftp@5.0.5:
     resolution: {integrity: sha512-4Bcg1P8xhUuqcii/S0Z9wiHIrQVPMermM1any+MX5GeGD7faD3/msQUDGLol9wOcz4/jbg/WJnGqoJF6LiBdtg==}
     engines: {node: '>=10.0.0'}
+    deprecated: Security vulnerability fixed in 5.2.0, please upgrade
 
   before-after-hook@4.0.0:
     resolution: {integrity: sha512-q6tR3RPqIB1pMiTRMFcZwuG5T8vwp+vUvEG0vuI6B+Rikh5BfPp2fQ82c925FOs+b0lcFQ8CFrL+KbilfZFhOQ==}
@@ -2856,7 +2857,7 @@ packages:
 
 snapshots:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/0f25dd4231a04c0c796175e91aefb93bda56f076(@typescript-eslint/parser@8.56.0(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)':
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/e92347a8818b0e4f20b6285df827f65a7bbd9b43(@typescript-eslint/parser@8.56.0(eslint@9.39.3(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)':
     dependencies:
       '@eslint/js': 9.39.3
       '@tsconfig/strictest': 2.0.8
