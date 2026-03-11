@@ -12,8 +12,8 @@ importers:
   .:
     dependencies:
       '@babel/helper-define-polyfill-provider':
-        specifier: 0.6.6
-        version: 0.6.6(@babel/core@7.29.0)
+        specifier: 0.6.7
+        version: 0.6.7(@babel/core@7.29.0)
       '@mdn/browser-compat-data':
         specifier: 7.3.6
         version: 7.3.6
@@ -94,8 +94,8 @@ packages:
     resolution: {integrity: sha512-JYtls3hqi15fcx5GaSNL7SCTJ2MNmjrkHXg4FSpOA/grxK8KwyZ5bubHsCq8FXCkua6xhuaaBit+3b7+VZRfcA==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/helper-define-polyfill-provider@0.6.6':
-    resolution: {integrity: sha512-mOAsxeeKkUKayvZR3HeTYD/fICpCPLJrU5ZjelT/PA6WHtNDBOE436YiaEUvHN454bRM3CebhDsIpieCc4texA==}
+  '@babel/helper-define-polyfill-provider@0.6.7':
+    resolution: {integrity: sha512-6Fqi8MtQ/PweQ9xvux65emkLQ83uB+qAVtfHkC9UodyHMIZdxNI01HjLCLUtybElp2KY2XNE0nOgyP1E1vXw9w==}
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
@@ -2932,7 +2932,7 @@ snapshots:
       lru-cache: 5.1.1
       semver: 6.3.1
 
-  '@babel/helper-define-polyfill-provider@0.6.6(@babel/core@7.29.0)':
+  '@babel/helper-define-polyfill-provider@0.6.7(@babel/core@7.29.0)':
     dependencies:
       '@babel/core': 7.29.0
       '@babel/helper-compilation-targets': 7.28.6
