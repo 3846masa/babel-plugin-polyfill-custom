@@ -28,8 +28,8 @@ importers:
         specifier: 7.29.0
         version: 7.29.0
       '@babel/preset-env':
-        specifier: 7.29.0
-        version: 7.29.0(@babel/core@7.29.0)
+        specifier: 7.29.2
+        version: 7.29.2(@babel/core@7.29.0)
       babel-plugin-polyfill-custom:
         specifier: ^2.0.45
         version: 2.0.45(@babel/core@7.29.0)
@@ -516,8 +516,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
 
-  '@babel/preset-env@7.29.0':
-    resolution: {integrity: sha512-fNEdfc0yi16lt6IZo2Qxk3knHVdfMYX33czNb4v8yWhemoBhibCpQK/uYHtSKIiO+p/zd3+8fYVXhQdOVV608w==}
+  '@babel/preset-env@7.29.2':
+    resolution: {integrity: sha512-DYD23veRYGvBFhcTY1iUvJnDNpuqNd/BzBwCvzOTKUnJjKg5kpUBh3/u9585Agdkgj+QuygG7jLfOPWMa2KVNw==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -690,7 +690,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
-    deprecated: Glob versions prior to v9 are no longer supported
+    deprecated: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
 
   hasown@2.0.2:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
@@ -1443,7 +1443,7 @@ snapshots:
       '@babel/helper-create-regexp-features-plugin': 7.28.5(@babel/core@7.29.0)
       '@babel/helper-plugin-utils': 7.28.6
 
-  '@babel/preset-env@7.29.0(@babel/core@7.29.0)':
+  '@babel/preset-env@7.29.2(@babel/core@7.29.0)':
     dependencies:
       '@babel/compat-data': 7.29.0
       '@babel/core': 7.29.0

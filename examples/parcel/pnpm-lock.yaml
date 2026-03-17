@@ -25,8 +25,8 @@ importers:
         specifier: 7.29.0
         version: 7.29.0
       '@babel/preset-env':
-        specifier: 7.29.0
-        version: 7.29.0(@babel/core@7.29.0)
+        specifier: 7.29.2
+        version: 7.29.2(@babel/core@7.29.0)
       '@parcel/config-default':
         specifier: 2.16.4
         version: 2.16.4(@parcel/core@2.16.4)
@@ -521,8 +521,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.0.0
 
-  '@babel/preset-env@7.29.0':
-    resolution: {integrity: sha512-fNEdfc0yi16lt6IZo2Qxk3knHVdfMYX33czNb4v8yWhemoBhibCpQK/uYHtSKIiO+p/zd3+8fYVXhQdOVV608w==}
+  '@babel/preset-env@7.29.2':
+    resolution: {integrity: sha512-DYD23veRYGvBFhcTY1iUvJnDNpuqNd/BzBwCvzOTKUnJjKg5kpUBh3/u9585Agdkgj+QuygG7jLfOPWMa2KVNw==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -543,6 +543,15 @@ packages:
   '@babel/types@7.29.0':
     resolution: {integrity: sha512-LwdZHpScM4Qz8Xw2iKSzS+cfglZzJGvofQICy7W7v4caru4EaAmyUuO6BGrbyQ2mYV11W0U8j5mBhd14dd3B0A==}
     engines: {node: '>=6.9.0'}
+
+  '@exodus/bytes@1.15.0':
+    resolution: {integrity: sha512-UY0nlA+feH81UGSHv92sLEPLCeZFjXOuHhrIo0HQydScuQc8s0A7kL/UdgwgDq8g8ilksmuoF35YVTNphV2aBQ==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
+    peerDependencies:
+      '@noble/hashes': ^1.8.0 || ^2.0.0
+    peerDependenciesMeta:
+      '@noble/hashes':
+        optional: true
 
   '@jridgewell/gen-mapping@0.3.12':
     resolution: {integrity: sha512-OuLGC46TjB5BbN1dH8JULVVZY4WTdkF7tV9Ys6wLL1rubZnCMstOhNHueU5bLCrnRuDhKPDM4g6sw4Bel5Gzqg==}
@@ -1169,9 +1178,9 @@ packages:
   core-js-compat@3.48.0:
     resolution: {integrity: sha512-OM4cAF3D6VtH/WkLtWvyNC56EZVXsZdU3iqaMG2B4WvYrlqU831pc4UtG5yp0sE9z8Y02wVN7PjW5Zf9Gt0f1Q==}
 
-  data-urls@6.0.1:
-    resolution: {integrity: sha512-euIQENZg6x8mj3fO6o9+fOW8MimUI4PpD/fZBhJfeioZVy9TUpM4UY7KjQNVZFlqwJ0UdzRDzkycB997HEq1BQ==}
-    engines: {node: '>=20'}
+  data-urls@7.0.0:
+    resolution: {integrity: sha512-23XHcCF+coGYevirZceTVD7NdJOqVn+49IHyxgszm+JIiHLoB2TkmPtsYkNWT1pvRSGkc35L6NHs0yHkN2SumA==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
 
   debug@4.4.3:
     resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
@@ -1520,8 +1529,8 @@ packages:
   weak-lru-cache@1.2.2:
     resolution: {integrity: sha512-DEAoo25RfSYMuTGc9vPJzZcZullwIqRDSI9LOy+fkCJPi6hykCnfKaXTuPBDuXAUcqHXyOgFtHNp/kB2FjYHbw==}
 
-  webidl-conversions@8.0.0:
-    resolution: {integrity: sha512-n4W4YFyz5JzOfQeA8oN7dUYpR+MBP3PIUsn2jLjWXwK5ASUzt0Jc/A5sAUZoCYFJRGF0FBKJ+1JjN43rNdsQzA==}
+  webidl-conversions@8.0.1:
+    resolution: {integrity: sha512-BMhLD/Sw+GbJC21C/UgyaZX41nPt8bUTg+jWyDeg7e7YN4xOM05YPSIXceACnXVtqyEw/LMClUQMtMZ+PGGpqQ==}
     engines: {node: '>=20'}
 
   whatwg-fetch@3.6.20:
@@ -1531,9 +1540,9 @@ packages:
     resolution: {integrity: sha512-sXcNcHOC51uPGF0P/D4NVtrkjSU2fNsm9iog4ZvZJsL3rjoDAzXZhkm2MWt1y+PUdggKAYVoMAIYcs78wJ51Cw==}
     engines: {node: '>=20'}
 
-  whatwg-url@15.1.0:
-    resolution: {integrity: sha512-2ytDk0kiEj/yu90JOAp44PVPUkO9+jVhyf+SybKlRHSDlvOOZhdPIrr7xTH64l4WixO2cP+wQIcgujkGBPPz6g==}
-    engines: {node: '>=20'}
+  whatwg-url@16.0.1:
+    resolution: {integrity: sha512-1to4zXBxmXHV3IiSSEInrreIlu02vUOvrhxJJH5vcxYTBDAx51cqZiKdyTxlecdKNSjj8EcxGBxNf6Vg+945gw==}
+    engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
 
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
@@ -2100,7 +2109,7 @@ snapshots:
       '@babel/helper-create-regexp-features-plugin': 7.28.5(@babel/core@7.29.0)
       '@babel/helper-plugin-utils': 7.28.6
 
-  '@babel/preset-env@7.29.0(@babel/core@7.29.0)':
+  '@babel/preset-env@7.29.2(@babel/core@7.29.0)':
     dependencies:
       '@babel/compat-data': 7.29.0
       '@babel/core': 7.29.0
@@ -2205,6 +2214,8 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
+
+  '@exodus/bytes@1.15.0': {}
 
   '@jridgewell/gen-mapping@0.3.12':
     dependencies:
@@ -3063,10 +3074,12 @@ snapshots:
     dependencies:
       browserslist: 4.28.1
 
-  data-urls@6.0.1:
+  data-urls@7.0.0:
     dependencies:
       whatwg-mimetype: 5.0.0
-      whatwg-url: 15.1.0
+      whatwg-url: 16.0.1
+    transitivePeerDependencies:
+      - '@noble/hashes'
 
   debug@4.4.3:
     dependencies:
@@ -3241,8 +3254,9 @@ snapshots:
   parcel-resolver-data-uri@file:utils/parcel-resolver-data-uri(@parcel/core@2.16.4):
     dependencies:
       '@parcel/plugin': 2.16.4(@parcel/core@2.16.4)
-      data-urls: 6.0.1
+      data-urls: 7.0.0
     transitivePeerDependencies:
+      - '@noble/hashes'
       - '@parcel/core'
       - napi-wasm
 
@@ -3357,16 +3371,19 @@ snapshots:
 
   weak-lru-cache@1.2.2: {}
 
-  webidl-conversions@8.0.0: {}
+  webidl-conversions@8.0.1: {}
 
   whatwg-fetch@3.6.20: {}
 
   whatwg-mimetype@5.0.0: {}
 
-  whatwg-url@15.1.0:
+  whatwg-url@16.0.1:
     dependencies:
+      '@exodus/bytes': 1.15.0
       tr46: 6.0.0
-      webidl-conversions: 8.0.0
+      webidl-conversions: 8.0.1
+    transitivePeerDependencies:
+      - '@noble/hashes'
 
   yallist@3.1.1: {}
 
