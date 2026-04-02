@@ -1,5 +1,32 @@
 # Changelog
 
+## [2.0.46](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v2.0.45...v2.0.46) (2026-04-02)
+
+### Bug Fixes
+
+* **npm:** update dependency @babel/helper-define-polyfill-provider to v0.6.6 ([#1647](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1647)) ([8ab328d](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/8ab328d753b52302562fe4e9857551963cd75c65))
+* **npm:** update dependency @babel/helper-define-polyfill-provider to v0.6.7 ([#1712](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1712)) ([695f8bf](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/695f8bfff1472a203ac02b17b39f5c41823367bb))
+* **npm:** update dependency @babel/helper-define-polyfill-provider to v0.6.8 ([#1727](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1727)) ([87a2c79](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/87a2c794d0fa304f8dcce51b16f09ebb642ca4fe))
+* **npm:** update dependency @mdn/browser-compat-data to v7.1.22 ([#1560](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1560)) ([f327a3c](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/f327a3c08fd4c3a385e42a80ad743e7204dcb69f))
+* **npm:** update dependency @mdn/browser-compat-data to v7.1.23 ([#1571](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1571)) ([8b2a354](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/8b2a354d7bbab76a4ca8540b529a930c6998f342))
+* **npm:** update dependency @mdn/browser-compat-data to v7.1.24 ([#1582](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1582)) ([b542916](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/b54291680fc1d3d26171e12322cc9d8669e34b93))
+* **npm:** update dependency @mdn/browser-compat-data to v7.2.0 ([#1587](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1587)) ([6a6465f](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/6a6465f136efe58f7574cb2a3fc5bcf9054aa51a))
+* **npm:** update dependency @mdn/browser-compat-data to v7.2.1 ([#1594](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1594)) ([3dc4ffa](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/3dc4ffa01c34b2a405ae0ece3607eb5917b464f3))
+* **npm:** update dependency @mdn/browser-compat-data to v7.2.2 ([#1604](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1604)) ([5905ded](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/5905dedf0ec0ab339208d6353acd4c012b1e41ba))
+* **npm:** update dependency @mdn/browser-compat-data to v7.2.3 ([#1619](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1619)) ([697342a](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/697342a1296d9fe5dd38150384ca8ac848715c2d))
+* **npm:** update dependency @mdn/browser-compat-data to v7.2.4 ([#1637](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1637)) ([5de267a](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/5de267aab2e87f1cf6b738ff28368fd42ce4e2c9))
+* **npm:** update dependency @mdn/browser-compat-data to v7.2.5 ([#1648](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1648)) ([dfbb78e](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/dfbb78ec36fb43aa6b446f0394830c7bfb960bc8))
+* **npm:** update dependency @mdn/browser-compat-data to v7.3.0 ([#1661](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1661)) ([786cf82](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/786cf828e72c3e64aa080687dd35835f6063ac42))
+* **npm:** update dependency @mdn/browser-compat-data to v7.3.1 ([#1668](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1668)) ([c7207b6](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/c7207b650101f0771d9ba206fdf5ed31125d12fb))
+* **npm:** update dependency @mdn/browser-compat-data to v7.3.2 ([#1677](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1677)) ([225d6a4](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/225d6a472040f089656f63635db78e366699773c))
+* **npm:** update dependency @mdn/browser-compat-data to v7.3.3 ([#1686](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1686)) ([62cdd46](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/62cdd46e33fa819454bcbb7264e2078dfdd4a973))
+* **npm:** update dependency @mdn/browser-compat-data to v7.3.5 ([#1696](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1696)) ([cf33072](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/cf33072f813be67c527f0a726b5a19fc53e1953b))
+* **npm:** update dependency @mdn/browser-compat-data to v7.3.6 ([#1710](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1710)) ([c323c2d](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/c323c2d110e4d400cc24b09c0e46b364311a0f8c))
+* **npm:** update dependency @mdn/browser-compat-data to v7.3.7 ([#1723](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1723)) ([f7e47dd](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/f7e47ddecf010f0a8c23e816ef0f10542b02907e))
+* **npm:** update dependency @mdn/browser-compat-data to v7.3.8 ([#1733](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1733)) ([386332c](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/386332ca76e121b391ea7f0d61106f8b88fa54ef))
+* **npm:** update dependency @mdn/browser-compat-data to v7.3.9 ([#1743](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1743)) ([990323b](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/990323b29f81349eb9fc82bc6f528b094597b1df))
+* **npm:** update dependency semver to v7.7.4 ([#1667](https://github.com/3846masa/babel-plugin-polyfill-custom/issues/1667)) ([ce367e5](https://github.com/3846masa/babel-plugin-polyfill-custom/commit/ce367e5ff113878835978a737e8eff7723744146))
+
 ## [2.0.45](https://github.com/3846masa/babel-plugin-polyfill-custom/compare/v2.0.44...v2.0.45) (2025-11-17)
 
 ### Bug Fixes
