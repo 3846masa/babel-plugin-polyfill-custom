@@ -29,19 +29,19 @@ importers:
         version: 7.29.2(@babel/core@7.29.0)
       babel-loader:
         specifier: 10.1.1
-        version: 10.1.1(@babel/core@7.29.0)(webpack@5.105.4)
+        version: 10.1.1(@babel/core@7.29.0)(webpack@5.106.0)
       babel-plugin-polyfill-custom:
         specifier: ^2.0.47
         version: 2.0.47(@babel/core@7.29.0)
       circular-dependency-plugin:
         specifier: 5.2.2
-        version: 5.2.2(webpack@5.105.4)
+        version: 5.2.2(webpack@5.106.0)
       webpack:
-        specifier: 5.105.4
-        version: 5.105.4(webpack-cli@7.0.2)
+        specifier: 5.106.0
+        version: 5.106.0(webpack-cli@7.0.2)
       webpack-cli:
         specifier: 7.0.2
-        version: 7.0.2(webpack@5.105.4)
+        version: 7.0.2(webpack@5.106.0)
 
 packages:
 
@@ -1133,8 +1133,8 @@ packages:
     resolution: {integrity: sha512-7tP1PdV4vF+lYPnkMR0jMY5/la2ub5Fc/8VQrrU+lXkiM6C4TjVfGw7iKfyhnTQOsD+6Q/iKw0eFciziRgD58Q==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.105.4:
-    resolution: {integrity: sha512-jTywjboN9aHxFlToqb0K0Zs9SbBoW4zRUlGzI2tYNxVYcEi/IPpn+Xi4ye5jTLvX2YeLuic/IvxNot+Q1jMoOw==}
+  webpack@5.106.0:
+    resolution: {integrity: sha512-Pkx5joZ9RrdgO5LBkyX1L2ZAJeK/Taz3vqZ9CbcP0wS5LEMx5QkKsEwLl29QJfihZ+DKRBFldzy1O30pJ1MDpA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -1972,12 +1972,12 @@ snapshots:
       require-from-string: 2.0.2
       uri-js: 4.4.1
 
-  babel-loader@10.1.1(@babel/core@7.29.0)(webpack@5.105.4):
+  babel-loader@10.1.1(@babel/core@7.29.0)(webpack@5.106.0):
     dependencies:
       '@babel/core': 7.29.0
       find-up: 5.0.0
     optionalDependencies:
-      webpack: 5.105.4(webpack-cli@7.0.2)
+      webpack: 5.106.0(webpack-cli@7.0.2)
 
   babel-plugin-polyfill-corejs2@0.4.15(@babel/core@7.29.0):
     dependencies:
@@ -2030,9 +2030,9 @@ snapshots:
 
   chrome-trace-event@1.0.3: {}
 
-  circular-dependency-plugin@5.2.2(webpack@5.105.4):
+  circular-dependency-plugin@5.2.2(webpack@5.106.0):
     dependencies:
-      webpack: 5.105.4(webpack-cli@7.0.2)
+      webpack: 5.106.0(webpack-cli@7.0.2)
 
   clone-deep@4.0.1:
     dependencies:
@@ -2300,13 +2300,13 @@ snapshots:
 
   tapable@2.3.0: {}
 
-  terser-webpack-plugin@5.3.17(webpack@5.105.4):
+  terser-webpack-plugin@5.3.17(webpack@5.106.0):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.29
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       terser: 5.39.0
-      webpack: 5.105.4(webpack-cli@7.0.2)
+      webpack: 5.106.0(webpack-cli@7.0.2)
 
   terser@5.39.0:
     dependencies:
@@ -2343,7 +2343,7 @@ snapshots:
       glob-to-regexp: 0.4.1
       graceful-fs: 4.2.11
 
-  webpack-cli@7.0.2(webpack@5.105.4):
+  webpack-cli@7.0.2(webpack@5.106.0):
     dependencies:
       '@discoveryjs/json-ext': 1.0.0
       commander: 14.0.3
@@ -2353,7 +2353,7 @@ snapshots:
       import-local: 3.1.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.105.4(webpack-cli@7.0.2)
+      webpack: 5.106.0(webpack-cli@7.0.2)
       webpack-merge: 6.0.1
 
   webpack-merge@6.0.1:
@@ -2364,7 +2364,7 @@ snapshots:
 
   webpack-sources@3.3.4: {}
 
-  webpack@5.105.4(webpack-cli@7.0.2):
+  webpack@5.106.0(webpack-cli@7.0.2):
     dependencies:
       '@types/eslint-scope': 3.7.7
       '@types/estree': 1.0.8
@@ -2388,11 +2388,11 @@ snapshots:
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.0
-      terser-webpack-plugin: 5.3.17(webpack@5.105.4)
+      terser-webpack-plugin: 5.3.17(webpack@5.106.0)
       watchpack: 2.5.1
       webpack-sources: 3.3.4
     optionalDependencies:
-      webpack-cli: 7.0.2(webpack@5.105.4)
+      webpack-cli: 7.0.2(webpack@5.106.0)
     transitivePeerDependencies:
       - '@swc/core'
       - esbuild
