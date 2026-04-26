@@ -28,8 +28,8 @@ importers:
         version: 7.7.4
     devDependencies:
       '@3846masa/configs':
-        specifier: github:3846masa/configs#bbb0d462f1d60ea9c9ee813c15dd79cd064418e9
-        version: https://codeload.github.com/3846masa/configs/tar.gz/bbb0d462f1d60ea9c9ee813c15dd79cd064418e9(@typescript-eslint/parser@8.59.0(eslint@10.2.1(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)
+        specifier: github:3846masa/configs#9132572fd68c8e800b5420f081e152f59dc59094
+        version: https://codeload.github.com/3846masa/configs/tar.gz/9132572fd68c8e800b5420f081e152f59dc59094(@typescript-eslint/parser@8.59.0(eslint@10.2.1(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)
       '@babel/core':
         specifier: 7.29.0
         version: 7.29.0
@@ -66,9 +66,9 @@ importers:
 
 packages:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/bbb0d462f1d60ea9c9ee813c15dd79cd064418e9':
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/bbb0d462f1d60ea9c9ee813c15dd79cd064418e9}
-    version: 1.0.860
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/9132572fd68c8e800b5420f081e152f59dc59094':
+    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/9132572fd68c8e800b5420f081e152f59dc59094}
+    version: 1.0.861
 
   '@aashutoshrathi/word-wrap@1.2.6':
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
@@ -2831,7 +2831,7 @@ packages:
 
 snapshots:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/bbb0d462f1d60ea9c9ee813c15dd79cd064418e9(@typescript-eslint/parser@8.59.0(eslint@10.2.1(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)':
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/9132572fd68c8e800b5420f081e152f59dc59094(@typescript-eslint/parser@8.59.0(eslint@10.2.1(jiti@2.6.1))(typescript@5.9.3))(jiti@2.6.1)':
     dependencies:
       '@eslint/js': 10.0.1(eslint@10.2.1(jiti@2.6.1))
       '@tsconfig/strictest': 2.0.8
