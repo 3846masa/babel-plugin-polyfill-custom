@@ -40,8 +40,8 @@ importers:
         specifier: 16.0.3
         version: 16.0.3(rollup@4.60.3)
       babel-plugin-polyfill-custom:
-        specifier: ^2.0.50
-        version: 2.0.50(@babel/core@7.29.0)
+        specifier: ^2.0.51
+        version: 2.0.51(@babel/core@7.29.0)
       rollup:
         specifier: 4.60.3
         version: 4.60.3
@@ -561,8 +561,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.29':
     resolution: {integrity: sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ==}
 
-  '@mdn/browser-compat-data@7.3.13':
-    resolution: {integrity: sha512-EniCSTNBv/bpBja1/npmqAGCBeWZmh2EoopsgW4X/yFBB8puVvt9DhV5c+IRjvTVs9j5obvN424FJVPn7guuMA==}
+  '@mdn/browser-compat-data@7.3.14':
+    resolution: {integrity: sha512-Mqll0z0todYcAOqr+2hnYZRFe7+CwyU14lj86vzAGDJVeqnp618ybGzwHTI7sxyhd/46FFtJAlZNUmL1YHSX+Q==}
 
   '@rollup/plugin-babel@7.0.0':
     resolution: {integrity: sha512-NS2+P7v80N3MQqehZEjgpaFb9UyX3URNMW/zvoECKGo4PY4DvJfQusTI7BX/Ks+CPvtTfk3TqcR6S9VYBi/C+A==}
@@ -774,8 +774,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
-  babel-plugin-polyfill-custom@2.0.50:
-    resolution: {integrity: sha512-TCkKwwioUxZorr5mKKeYtjTA8L0+QEOcUuaKzE/Jdj+yKdMNjvB/5l9ClxEs3AEVDyskY1w9HNCgzSlxN2lQYg==}
+  babel-plugin-polyfill-custom@2.0.51:
+    resolution: {integrity: sha512-Vd2DYSxVoKyQnRcC7ALlyfI73pLOvJk2RcetOLouazhRfzOGqusqmwWr7VheC8jxMtgL+Fg+2BvxdoFJcU92jA==}
     peerDependencies:
       '@babel/core': '>=7.0.0'
 
@@ -1674,7 +1674,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.1
       '@jridgewell/sourcemap-codec': 1.5.4
 
-  '@mdn/browser-compat-data@7.3.13': {}
+  '@mdn/browser-compat-data@7.3.14': {}
 
   '@rollup/plugin-babel@7.0.0(@babel/core@7.29.0)(rollup@4.60.3)':
     dependencies:
@@ -1824,11 +1824,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-polyfill-custom@2.0.50(@babel/core@7.29.0):
+  babel-plugin-polyfill-custom@2.0.51(@babel/core@7.29.0):
     dependencies:
       '@babel/core': 7.29.0
       '@babel/helper-define-polyfill-provider': 0.6.8(@babel/core@7.29.0)
-      '@mdn/browser-compat-data': 7.3.13
+      '@mdn/browser-compat-data': 7.3.14
       fast-json-stable-stringify: 2.1.0
       lodash.get: 4.4.2
       semver: 7.7.4
