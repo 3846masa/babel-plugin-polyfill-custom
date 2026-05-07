@@ -8,15 +8,13 @@ const configs = [
   ...sharedConfigs,
   {
     rules: {
-      // FIXME: https://github.com/import-js/eslint-plugin-import/issues/2948
-      'import/namespace': ['off'],
-      'import/no-unresolved': [
+      'import-x/no-unresolved': [
         'error',
         {
           ignore: ['^polyfill:'],
         },
       ],
-      'import/order': [
+      'import-x/order': [
         'error',
         {
           pathGroups: [
