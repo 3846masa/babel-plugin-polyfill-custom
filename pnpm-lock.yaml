@@ -67,7 +67,7 @@ importers:
 packages:
 
   '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/c08b2fc0e7beb3553535cc6b57e32f402fa4c241':
-    resolution: {tarball: https://codeload.github.com/3846masa/configs/tar.gz/c08b2fc0e7beb3553535cc6b57e32f402fa4c241}
+    resolution: {gitHosted: true, integrity: sha512-DACiHwJVNBgdd9egHyqW5rUbk0o7suJu2+AvpU76yRsrCktXxy7N1rv1e82GETL7gYzSsp2z5vrxfuCQkPD0NA==, tarball: https://codeload.github.com/3846masa/configs/tar.gz/c08b2fc0e7beb3553535cc6b57e32f402fa4c241}
     version: 1.0.868
 
   '@aashutoshrathi/word-wrap@1.2.6':
