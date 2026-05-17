@@ -34,8 +34,8 @@ importers:
         specifier: 2.16.4
         version: 2.16.4(@parcel/core@2.16.4)
       babel-plugin-polyfill-custom:
-        specifier: ^2.0.52
-        version: 2.0.52(@babel/core@7.29.0)
+        specifier: ^2.0.53
+        version: 2.0.53(@babel/core@7.29.0)
       parcel:
         specifier: 2.16.4
         version: 2.16.4
@@ -1121,8 +1121,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
-  babel-plugin-polyfill-custom@2.0.52:
-    resolution: {integrity: sha512-RM+c58/TK1KNpqutkI5Lhb/RsOBsIYtOM9JlfAZMLmBd1RBI9alOuOnXuZejPQ9iEQctieA3EUy7IeJzs/Zy9g==}
+  babel-plugin-polyfill-custom@2.0.53:
+    resolution: {integrity: sha512-IoZVLlEaf4qAjBiu+othjeV1klAbyO0EGabxweNm58r8trQDc+Iu8n4Z8wJpidkLGsJEZqjb84CytXLwXdRIHw==}
     peerDependencies:
       '@babel/core': '>=7.0.0'
 
@@ -1469,8 +1469,8 @@ packages:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
 
-  semver@7.7.4:
-    resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
+  semver@7.8.0:
+    resolution: {integrity: sha512-AcM7dV/5ul4EekoQ29Agm5vri8JNqRyj39o0qpX6vDF2GZrtutZl5RwgD1XnZjiTAfncsJhMI48QQH3sN87YNA==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -2383,7 +2383,7 @@ snapshots:
       json5: 2.2.3
       msgpackr: 1.11.2
       nullthrows: 1.1.1
-      semver: 7.7.4
+      semver: 7.8.0
     transitivePeerDependencies:
       - '@swc/helpers'
       - napi-wasm
@@ -2442,7 +2442,7 @@ snapshots:
       '@parcel/rust': 2.16.4
       '@parcel/utils': 2.16.4
       nullthrows: 1.1.1
-      semver: 7.7.4
+      semver: 7.8.0
     transitivePeerDependencies:
       - '@parcel/core'
       - napi-wasm
@@ -2513,7 +2513,7 @@ snapshots:
       '@parcel/utils': 2.16.4
       '@parcel/workers': 2.16.4(@parcel/core@2.16.4)
       '@swc/core': 1.11.24
-      semver: 7.7.4
+      semver: 7.8.0
     transitivePeerDependencies:
       - '@swc/helpers'
       - napi-wasm
@@ -2716,7 +2716,7 @@ snapshots:
       browserslist: 4.28.1
       json5: 2.2.3
       nullthrows: 1.1.1
-      semver: 7.7.4
+      semver: 7.8.0
     transitivePeerDependencies:
       - '@parcel/core'
       - napi-wasm
@@ -2766,7 +2766,7 @@ snapshots:
       browserslist: 4.28.1
       nullthrows: 1.1.1
       regenerator-runtime: 0.14.1
-      semver: 7.7.4
+      semver: 7.8.0
     transitivePeerDependencies:
       - napi-wasm
 
@@ -2794,7 +2794,7 @@ snapshots:
       clone: 2.1.2
       nullthrows: 1.1.1
       postcss-value-parser: 4.2.0
-      semver: 7.7.4
+      semver: 7.8.0
     transitivePeerDependencies:
       - '@parcel/core'
       - napi-wasm
@@ -3012,14 +3012,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-polyfill-custom@2.0.52(@babel/core@7.29.0):
+  babel-plugin-polyfill-custom@2.0.53(@babel/core@7.29.0):
     dependencies:
       '@babel/core': 7.29.0
       '@babel/helper-define-polyfill-provider': 0.6.8(@babel/core@7.29.0)
       '@mdn/browser-compat-data': 7.3.15
       fast-json-stable-stringify: 2.1.0
       lodash.get: 4.4.2
-      semver: 7.7.4
+      semver: 7.8.0
     transitivePeerDependencies:
       - supports-color
 
@@ -3327,7 +3327,7 @@ snapshots:
 
   semver@6.3.1: {}
 
-  semver@7.7.4: {}
+  semver@7.8.0: {}
 
   supports-color@7.2.0:
     dependencies:
