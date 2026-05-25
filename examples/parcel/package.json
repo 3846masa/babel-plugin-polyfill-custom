@@ -11,8 +11,8 @@
     "zousan": "3.0.1"
   },
   "devDependencies": {
-    "@babel/core": "7.29.0",
-    "@babel/preset-env": "7.29.5",
+    "@babel/core": "7.29.7",
+    "@babel/preset-env": "7.29.7",
     "@parcel/config-default": "2.16.4",
     "@parcel/resolver-default": "2.16.4",
     "babel-plugin-polyfill-custom": "^2.0.54",
