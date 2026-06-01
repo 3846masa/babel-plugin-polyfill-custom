@@ -28,8 +28,8 @@ importers:
         specifier: 7.29.7
         version: 7.29.7(@babel/core@7.29.7)
       '@rollup/plugin-babel':
-        specifier: 7.0.0
-        version: 7.0.0(@babel/core@7.29.7)(rollup@4.60.4)
+        specifier: 7.1.0
+        version: 7.1.0(@babel/core@7.29.7)(rollup@4.60.4)
       '@rollup/plugin-commonjs':
         specifier: 29.0.3
         version: 29.0.3(rollup@4.60.4)
@@ -564,8 +564,8 @@ packages:
   '@mdn/browser-compat-data@7.3.17':
     resolution: {integrity: sha512-ZtcyRH/psFX4njAEvY898TH/VYknOaeEe2KJdldak4eDsj4MufSY2sXtBJ2IKjZ3jAvLUBRVf8+bv8q2xDHVDg==}
 
-  '@rollup/plugin-babel@7.0.0':
-    resolution: {integrity: sha512-NS2+P7v80N3MQqehZEjgpaFb9UyX3URNMW/zvoECKGo4PY4DvJfQusTI7BX/Ks+CPvtTfk3TqcR6S9VYBi/C+A==}
+  '@rollup/plugin-babel@7.1.0':
+    resolution: {integrity: sha512-h9Y+xYha6p4wKO+FwdiPIkE+eIYCm8MzZPpX1iARIoFBnmKP9CnpT1p9dDf/DTFm6fyN8PmuLyRI5qZgchnitw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -985,6 +985,9 @@ packages:
 
   whatwg-fetch@3.6.20:
     resolution: {integrity: sha512-EqhiFU6daOA8kpjOWTL0olhVOF3i7OrFzSYiGsEMB8GcXS+RrzauAERX65xMeNWVqxA6HXH2m69Z9LaKKdisfg==}
+
+  workerpool@9.3.4:
+    resolution: {integrity: sha512-TmPRQYYSAnnDiEB0P/Ytip7bFGvqnSU6I2BcuSw7Hx+JSg/DsUi5ebYfc8GYaSdpuvOcEs6dXxPurOYpe9QFwg==}
 
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
@@ -1676,11 +1679,12 @@ snapshots:
 
   '@mdn/browser-compat-data@7.3.17': {}
 
-  '@rollup/plugin-babel@7.0.0(@babel/core@7.29.7)(rollup@4.60.4)':
+  '@rollup/plugin-babel@7.1.0(@babel/core@7.29.7)(rollup@4.60.4)':
     dependencies:
       '@babel/core': 7.29.7
       '@babel/helper-module-imports': 7.29.7
       '@rollup/pluginutils': 5.1.0(rollup@4.60.4)
+      workerpool: 9.3.4
     optionalDependencies:
       rollup: 4.60.4
     transitivePeerDependencies:
@@ -2017,6 +2021,8 @@ snapshots:
       picocolors: 1.1.1
 
   whatwg-fetch@3.6.20: {}
+
+  workerpool@9.3.4: {}
 
   yallist@3.1.1: {}
 
