@@ -35,7 +35,7 @@ importers:
         version: 7.29.7
       '@release-it/conventional-changelog':
         specifier: 11.0.1
-        version: 11.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(release-it@20.0.1(@types/node@20.19.41))
+        version: 11.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(release-it@20.2.0(@types/node@20.19.41))
       '@types/babel__core':
         specifier: 7.20.5
         version: 7.20.5
@@ -55,8 +55,8 @@ importers:
         specifier: 1.7.2
         version: 1.7.2
       release-it:
-        specifier: 20.0.1
-        version: 20.0.1(@types/node@20.19.41)
+        specifier: 20.2.0
+        version: 20.2.0(@types/node@20.19.41)
       typescript:
         specifier: 6.0.3
         version: 6.0.3
@@ -2336,8 +2336,8 @@ packages:
     resolution: {integrity: sha512-NZQZdC5wOE/H3UT28fVGL+ikOZcEzfMGk/c3iN9UGxzWHMa1op7274oyiUVrAG4B2EuFhus8SvkaYnhvW92p9Q==}
     hasBin: true
 
-  release-it@20.0.1:
-    resolution: {integrity: sha512-3ob1P1aV+3+ZOoR7qgobfYyMlQbpitzOK09iKTtQ145vFi4rWxlRTgHwtVl8kokCvqiF/cJPxRlfcmZmF5aDJA==}
+  release-it@20.2.0:
+    resolution: {integrity: sha512-9ZTk9ripgctC6VTqH+P54KuboK29A5mG/I3tFfS5hnoAnkwtFFAMHRidYz93ylrW995vF50Ny1aOGJiyRmEN7w==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24.0.0}
     hasBin: true
 
@@ -3353,7 +3353,7 @@ snapshots:
 
   '@phun-ky/typeof@2.0.3': {}
 
-  '@release-it/conventional-changelog@11.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(release-it@20.0.1(@types/node@20.19.41))':
+  '@release-it/conventional-changelog@11.0.1(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)(release-it@20.2.0(@types/node@20.19.41))':
     dependencies:
       '@conventional-changelog/git-client': 2.7.0(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.3.0)
       concat-stream: 2.0.0
@@ -3361,7 +3361,7 @@ snapshots:
       conventional-changelog-angular: 8.3.1
       conventional-changelog-conventionalcommits: 9.3.1
       conventional-recommended-bump: 11.2.0
-      release-it: 20.0.1(@types/node@20.19.41)
+      release-it: 20.2.0(@types/node@20.19.41)
       semver: 7.8.1
     transitivePeerDependencies:
       - conventional-commits-filter
@@ -5189,7 +5189,7 @@ snapshots:
     dependencies:
       jsesc: 3.1.0
 
-  release-it@20.0.1(@types/node@20.19.41):
+  release-it@20.2.0(@types/node@20.19.41):
     dependencies:
       '@inquirer/prompts': 8.4.2(@types/node@20.19.41)
       '@octokit/rest': 22.0.1
