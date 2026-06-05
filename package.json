@@ -50,7 +50,7 @@
     "dedent": "1.7.2",
     "release-it": "20.2.0",
     "typescript": "6.0.3",
-    "vitest": "4.1.7"
+    "vitest": "4.1.8"
   },
   "peerDependencies": {
     "@babel/core": ">=7.0.0"
