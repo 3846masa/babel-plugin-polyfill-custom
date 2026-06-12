@@ -40,8 +40,8 @@ importers:
         specifier: 16.0.3
         version: 16.0.3(rollup@4.61.1)
       babel-plugin-polyfill-custom:
-        specifier: ^2.0.56
-        version: 2.0.56(@babel/core@7.29.7)
+        specifier: ^2.0.57
+        version: 2.0.57(@babel/core@7.29.7)
       rollup:
         specifier: 4.61.1
         version: 4.61.1
@@ -774,8 +774,8 @@ packages:
     peerDependencies:
       '@babel/core': ^7.4.0 || ^8.0.0-0 <8.0.0
 
-  babel-plugin-polyfill-custom@2.0.56:
-    resolution: {integrity: sha512-K/KzTybhrnDekBqvU7adKnUKviuhzXDGxjg/A7Y46Ftpfm6DRCYACR2BsvAAndbz+nk5Erro2CRxMwtdqxmFBw==}
+  babel-plugin-polyfill-custom@2.0.57:
+    resolution: {integrity: sha512-qP0WWftJgDbdYKEe+1zumhWyh83AKidpPbRPLC2UeuTgMqmAWa9XVQU7BineyG2HQxucYLsnbflYvboafEjQGw==}
     peerDependencies:
       '@babel/core': '>=7.0.0'
 
@@ -952,8 +952,8 @@ packages:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
 
-  semver@7.8.1:
-    resolution: {integrity: sha512-rkVq3IXh+4FDGch+KwzX3aV9W3kO54GyEgpvBzSyctDA6Xtd7RJQV1xmXbeQp5v7+VzLOfVqiutSE6GICgPFvg==}
+  semver@7.8.2:
+    resolution: {integrity: sha512-c8jsqUZm3omBOI66G90z1Dyw5z622G8oLG+omfsHBJf3CWQTlOcwOjvOG6wtiNfW6anKm/eA39LMwMtMez2TiQ==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -1828,14 +1828,14 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  babel-plugin-polyfill-custom@2.0.56(@babel/core@7.29.7):
+  babel-plugin-polyfill-custom@2.0.57(@babel/core@7.29.7):
     dependencies:
       '@babel/core': 7.29.7
       '@babel/helper-define-polyfill-provider': 0.6.8(@babel/core@7.29.7)
       '@mdn/browser-compat-data': 7.3.17
       fast-json-stable-stringify: 2.1.0
       lodash.get: 4.4.2
-      semver: 7.8.1
+      semver: 7.8.2
     transitivePeerDependencies:
       - supports-color
 
@@ -1999,7 +1999,7 @@ snapshots:
 
   semver@6.3.1: {}
 
-  semver@7.8.1: {}
+  semver@7.8.2: {}
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
