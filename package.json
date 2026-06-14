@@ -55,7 +55,7 @@
   "peerDependencies": {
     "@babel/core": ">=7.0.0"
   },
-  "packageManager": "pnpm@10.34.1",
+  "packageManager": "pnpm@10.34.3",
   "pnpm": {
     "overrides": {
       "conventional-changelog-conventionalcommits": "$conventional-changelog-conventionalcommits"
