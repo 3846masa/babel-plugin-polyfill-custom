@@ -36,7 +36,7 @@
     "@mdn/browser-compat-data": "7.3.17",
     "fast-json-stable-stringify": "2.1.0",
     "lodash.get": "4.4.2",
-    "semver": "7.8.4"
+    "semver": "7.8.5"
   },
   "devDependencies": {
     "@3846masa/configs": "github:3846masa/configs#81f747074bfb0c27832632b563888a2a9a9d0952",
