@@ -38,10 +38,10 @@ importers:
         version: 5.2.2(webpack@5.108.1)
       webpack:
         specifier: 5.108.1
-        version: 5.108.1(webpack-cli@7.0.3)
+        version: 5.108.1(webpack-cli@7.1.0)
       webpack-cli:
-        specifier: 7.0.3
-        version: 7.0.3(webpack@5.108.1)
+        specifier: 7.1.0
+        version: 7.1.0(json5@2.2.3)(webpack@5.108.1)
 
 packages:
 
@@ -757,8 +757,8 @@ packages:
     resolution: {integrity: sha512-SkE2t82KlkkxQRVMVLAGKxLfORGQfrkx5dkj+vlgXRVNEdPc4eZcR+J/Fvj8C+yKSFH5L0q3NFlyufOVQnCcYQ==}
     engines: {node: '>=10.13.0'}
 
-  envinfo@7.14.0:
-    resolution: {integrity: sha512-CO40UI41xDQzhLB1hWyqUKgFhs250pNcGbyGKe1l/e4FSaI/+YE4IMG76GDt0In67WLPACIITC+sOi08x4wIvg==}
+  envinfo@7.21.0:
+    resolution: {integrity: sha512-Lw7I8Zp5YKHFCXL7+Dz95g4CcbMEpgvqZNNq3AmlT5XAV6CgAAk6gyAMqn2zjw08K9BHfcNuKrMiCPLByGafow==}
     engines: {node: '>=4'}
     hasBin: true
 
@@ -833,8 +833,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  import-local@3.1.0:
-    resolution: {integrity: sha512-ASB07uLtnDs1o6EHjKpX34BKYDSqnFerfTOJL2HvMqF70LnxpjkzDB8J44oT9pu4AMPkQwf8jl6szgvNd2tRIg==}
+  import-local@3.2.0:
+    resolution: {integrity: sha512-2SPlun1JUPWoM6t3F0dw0FkCF/jWY8kttcY4f599GLTSjh2OCuuhdTkJQsEcZzBqbXZGKMK2OqW1oZsjtf/gQA==}
     engines: {node: '>=8'}
     hasBin: true
 
@@ -1124,15 +1124,24 @@ packages:
     resolution: {integrity: sha512-6i/00NBjP4yGPs+caKSyRfpTF/8Torsu0MOW3mMzIbhgISFder8i7xbqgHlLMwJrdiN8ndBV3UA1/AfzPSr+jg==}
     engines: {node: '>=10.13.0'}
 
-  webpack-cli@7.0.3:
-    resolution: {integrity: sha512-2E2C6A1e2El7791zQgTH7LPIuwLjRliow9OHS/qlJc9pwhZlCoL/uiwqd/1WSlXT83wJfmfDbkcqHXuXoPJZ3g==}
+  webpack-cli@7.1.0:
+    resolution: {integrity: sha512-pSJ5p5PkXRD88sfCq5Wo+coc42QykwRu5Md0DyESj0rT6PPPA2wTNabpHPKgqH8EMkfTDo3IWx3iiNXMu8XDBQ==}
     engines: {node: '>=20.9.0'}
     hasBin: true
     peerDependencies:
+      js-yaml: ^4.0.0 || ^5.0.0
+      json5: ^2.2.3
+      toml: ^3.0.0 || ^4.0.0
       webpack: ^5.101.0
       webpack-bundle-analyzer: ^4.0.0 || ^5.0.0
       webpack-dev-server: ^5.0.0
     peerDependenciesMeta:
+      js-yaml:
+        optional: true
+      json5:
+        optional: true
+      toml:
+        optional: true
       webpack-bundle-analyzer:
         optional: true
       webpack-dev-server:
@@ -1989,7 +1998,7 @@ snapshots:
       '@babel/core': 7.29.7
       find-up: 5.0.0
     optionalDependencies:
-      webpack: 5.108.1(webpack-cli@7.0.3)
+      webpack: 5.108.1(webpack-cli@7.1.0)
 
   babel-plugin-polyfill-corejs2@0.4.15(@babel/core@7.29.7):
     dependencies:
@@ -2044,7 +2053,7 @@ snapshots:
 
   circular-dependency-plugin@5.2.2(webpack@5.108.1):
     dependencies:
-      webpack: 5.108.1(webpack-cli@7.0.3)
+      webpack: 5.108.1(webpack-cli@7.1.0)
 
   clone-deep@4.0.1:
     dependencies:
@@ -2079,7 +2088,7 @@ snapshots:
       graceful-fs: 4.2.11
       tapable: 2.3.3
 
-  envinfo@7.14.0: {}
+  envinfo@7.21.0: {}
 
   es-module-lexer@2.1.0: {}
 
@@ -2132,7 +2141,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  import-local@3.1.0:
+  import-local@3.2.0:
     dependencies:
       pkg-dir: 4.2.0
       resolve-cwd: 3.0.0
@@ -2195,7 +2204,7 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       terser: 5.39.0
-      webpack: 5.108.1(webpack-cli@7.0.3)
+      webpack: 5.108.1(webpack-cli@7.1.0)
 
   ms@2.1.3: {}
 
@@ -2344,17 +2353,19 @@ snapshots:
     dependencies:
       graceful-fs: 4.2.11
 
-  webpack-cli@7.0.3(webpack@5.108.1):
+  webpack-cli@7.1.0(json5@2.2.3)(webpack@5.108.1):
     dependencies:
       '@discoveryjs/json-ext': 1.1.0
       commander: 14.0.3
       cross-spawn: 7.0.6
-      envinfo: 7.14.0
-      import-local: 3.1.0
+      envinfo: 7.21.0
+      import-local: 3.2.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.108.1(webpack-cli@7.0.3)
+      webpack: 5.108.1(webpack-cli@7.1.0)
       webpack-merge: 6.0.1
+    optionalDependencies:
+      json5: 2.2.3
 
   webpack-merge@6.0.1:
     dependencies:
@@ -2364,7 +2375,7 @@ snapshots:
 
   webpack-sources@3.5.0: {}
 
-  webpack@5.108.1(webpack-cli@7.0.3):
+  webpack@5.108.1(webpack-cli@7.1.0):
     dependencies:
       '@types/estree': 1.0.8
       '@types/json-schema': 7.0.15
@@ -2389,7 +2400,7 @@ snapshots:
       watchpack: 2.5.2
       webpack-sources: 3.5.0
     optionalDependencies:
-      webpack-cli: 7.0.3(webpack@5.108.1)
+      webpack-cli: 7.1.0(json5@2.2.3)(webpack@5.108.1)
     transitivePeerDependencies:
       - '@minify-html/node'
       - '@swc/core'
