@@ -28,8 +28,8 @@ importers:
         version: 7.8.5
     devDependencies:
       '@3846masa/configs':
-        specifier: github:3846masa/configs#6a7ae9720a101b6644b2ee343c3a1653ce54fd2a
-        version: https://codeload.github.com/3846masa/configs/tar.gz/6a7ae9720a101b6644b2ee343c3a1653ce54fd2a(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.6.1))(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.63.0(eslint@10.7.0(jiti@2.6.1))(typescript@6.0.3))(eslint@10.7.0(jiti@2.6.1)))(jiti@2.6.1)
+        specifier: github:3846masa/configs#f9e1e0dd4822ae503645ca424858af1fe0652dbb
+        version: https://codeload.github.com/3846masa/configs/tar.gz/f9e1e0dd4822ae503645ca424858af1fe0652dbb(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.6.1))(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.63.0(eslint@10.7.0(jiti@2.6.1))(typescript@6.0.3))(eslint@10.7.0(jiti@2.6.1)))(jiti@2.6.1)
       '@babel/core':
         specifier: 7.29.7
         version: 7.29.7
@@ -66,9 +66,9 @@ importers:
 
 packages:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/6a7ae9720a101b6644b2ee343c3a1653ce54fd2a':
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/3846masa/configs/tar.gz/6a7ae9720a101b6644b2ee343c3a1653ce54fd2a}
-    version: 1.0.901
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/f9e1e0dd4822ae503645ca424858af1fe0652dbb':
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/3846masa/configs/tar.gz/f9e1e0dd4822ae503645ca424858af1fe0652dbb}
+    version: 1.0.902
 
   '@aashutoshrathi/word-wrap@1.2.6':
     resolution: {integrity: sha512-1Yjs2SvM8TflER/OD3cOjhWWOZb58A2t7wpE2S9XfBYTiIl+XFhQG2bjy4Pu1I+EAlCNUzRDYDdFwFYUKvXcIA==}
@@ -2780,7 +2780,7 @@ packages:
 
 snapshots:
 
-  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/6a7ae9720a101b6644b2ee343c3a1653ce54fd2a(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.6.1))(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.63.0(eslint@10.7.0(jiti@2.6.1))(typescript@6.0.3))(eslint@10.7.0(jiti@2.6.1)))(jiti@2.6.1)':
+  '@3846masa/configs@https://codeload.github.com/3846masa/configs/tar.gz/f9e1e0dd4822ae503645ca424858af1fe0652dbb(@typescript-eslint/utils@8.63.0(eslint@10.7.0(jiti@2.6.1))(typescript@6.0.3))(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.63.0(eslint@10.7.0(jiti@2.6.1))(typescript@6.0.3))(eslint@10.7.0(jiti@2.6.1)))(jiti@2.6.1)':
     dependencies:
       '@eslint/js': 10.0.1(eslint@10.7.0(jiti@2.6.1))
       '@tsconfig/strictest': 2.0.8
