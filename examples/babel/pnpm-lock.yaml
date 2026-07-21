@@ -18,8 +18,8 @@ importers:
         specifier: 3.6.20
         version: 3.6.20
       zousan:
-        specifier: 3.0.1
-        version: 3.0.1
+        specifier: 4.0.1
+        version: 4.0.1
     devDependencies:
       '@babel/cli':
         specifier: 7.29.7
@@ -868,8 +868,8 @@ packages:
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
 
-  zousan@3.0.1:
-    resolution: {integrity: sha512-l0vx0e7mZEx3PddpGjsLI2Urs7cSFdBRVc+xMzc+WkfBKqyVtA+FjxPHB8oj/Abniqv9I95Tm9rrq+Ue3o9+zg==}
+  zousan@4.0.1:
+    resolution: {integrity: sha512-AQgUKSQaJX7RWmAnmWmhtaecSV6lCmV6nWWgltBTgtDmf+Gdub/M0N5oz3VgvdsCbjqAwwdoPWIeakb+uKzh7A==}
 
 snapshots:
 
@@ -1859,4 +1859,4 @@ snapshots:
 
   yallist@3.1.1: {}
 
-  zousan@3.0.1: {}
+  zousan@4.0.1: {}
