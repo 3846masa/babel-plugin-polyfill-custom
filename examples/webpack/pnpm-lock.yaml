@@ -18,8 +18,8 @@ importers:
         specifier: 3.6.20
         version: 3.6.20
       zousan:
-        specifier: 4.0.1
-        version: 4.0.1
+        specifier: 4.1.0
+        version: 4.1.0
     devDependencies:
       '@babel/core':
         specifier: 7.29.7
@@ -1173,8 +1173,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zousan@4.0.1:
-    resolution: {integrity: sha512-AQgUKSQaJX7RWmAnmWmhtaecSV6lCmV6nWWgltBTgtDmf+Gdub/M0N5oz3VgvdsCbjqAwwdoPWIeakb+uKzh7A==}
+  zousan@4.1.0:
+    resolution: {integrity: sha512-4o6wAR+/qoExfrPYHrjsXzj9Z8Tbe41PpryRZXRvvKNwpL1iGZOQIZLTftZEiQ8rw8eoXz9PZL7b5ZcR8s51aw==}
 
 snapshots:
 
@@ -2411,4 +2411,4 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zousan@4.0.1: {}
+  zousan@4.1.0: {}
