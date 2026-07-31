@@ -29,19 +29,19 @@ importers:
         version: 7.29.7(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       babel-loader:
         specifier: 10.1.1
-        version: 10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(webpack@5.109.0)
+        version: 10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(webpack@5.109.2)
       babel-plugin-polyfill-custom:
         specifier: ^2.0.59
         version: 2.0.59(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1)
       circular-dependency-plugin:
         specifier: 5.2.2
-        version: 5.2.2(webpack@5.109.0)
+        version: 5.2.2(webpack@5.109.2)
       webpack:
-        specifier: 5.109.0
-        version: 5.109.0(webpack-cli@7.2.1)
+        specifier: 5.109.2
+        version: 5.109.2(webpack-cli@7.2.1)
       webpack-cli:
         specifier: 7.2.1
-        version: 7.2.1(json5@2.2.3)(webpack@5.109.0)
+        version: 7.2.1(json5@2.2.3)(webpack@5.109.2)
 
 packages:
 
@@ -747,8 +747,8 @@ packages:
   electron-to-chromium@1.5.267:
     resolution: {integrity: sha512-0Drusm6MVRXSOJpGbaSVgcQsuB4hEkMpHXaVstcPmhu5LIedxs1xNK/nIxmQIU/RPC0+1/o0AVZfBTkTNJOdUw==}
 
-  enhanced-resolve@5.24.3:
-    resolution: {integrity: sha512-PwKooW9JUzh5chmYfHM3IQl5OkK2u2Nm011MgeZrss3JmFraUx/fqrf78kk8GUMYoibx/14MdwTl/1WKkG7TpQ==}
+  enhanced-resolve@5.24.5:
+    resolution: {integrity: sha512-L1l8TNvomm6UVW5B253AGxQagSQr+vGwhMlrrfRS2qmhx46AMpMVJKQYLvWYbysTMY8VoicOvzHzoHMbyzB+4A==}
     engines: {node: '>=10.13.0'}
 
   envinfo@7.21.0:
@@ -1145,8 +1145,8 @@ packages:
     resolution: {integrity: sha512-jyuiGJdtvY434z5bUZrjz67v76/ePNvFZTp9Mdz29IlH4+GPsgyGjiv0fKI+M7BdkU6ADjulUcKAd3tUK3WlEw==}
     engines: {node: '>=10.13.0'}
 
-  webpack@5.109.0:
-    resolution: {integrity: sha512-vomrngskVVXEZF9sMZfYAd4pXZUnfaWdJGlF+BTNF+gJBCKYCQBnOeVPlrh39Ewl7nlCsirDplMy6o5g9xJHBg==}
+  webpack@5.109.2:
+    resolution: {integrity: sha512-U9/cvLzxObKNEZ9+TtdqrHM5/9z3lgl2c+c4BzbqGxFQvQvBAq87yql5A8pQ+rrMbS496MZJeF5enVBndIy2hw==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     peerDependencies:
@@ -1979,12 +1979,12 @@ snapshots:
       require-from-string: 2.0.2
       uri-js: 4.4.1
 
-  babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(webpack@5.109.0):
+  babel-loader@10.1.1(@babel/core@7.29.7(supports-color@8.1.1))(webpack@5.109.2):
     dependencies:
       '@babel/core': 7.29.7(supports-color@8.1.1)
       find-up: 5.0.0
     optionalDependencies:
-      webpack: 5.109.0(webpack-cli@7.2.1)
+      webpack: 5.109.2(webpack-cli@7.2.1)
 
   babel-plugin-polyfill-corejs2@0.4.15(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1):
     dependencies:
@@ -2037,9 +2037,9 @@ snapshots:
 
   chrome-trace-event@1.0.3: {}
 
-  circular-dependency-plugin@5.2.2(webpack@5.109.0):
+  circular-dependency-plugin@5.2.2(webpack@5.109.2):
     dependencies:
-      webpack: 5.109.0(webpack-cli@7.2.1)
+      webpack: 5.109.2(webpack-cli@7.2.1)
 
   clone-deep@4.0.1:
     dependencies:
@@ -2071,7 +2071,7 @@ snapshots:
 
   electron-to-chromium@1.5.267: {}
 
-  enhanced-resolve@5.24.3:
+  enhanced-resolve@5.24.5:
     dependencies:
       graceful-fs: 4.2.11
       tapable: 2.3.3
@@ -2184,13 +2184,13 @@ snapshots:
 
   mime-db@1.54.0: {}
 
-  minimizer-webpack-plugin@5.6.1(webpack@5.109.0):
+  minimizer-webpack-plugin@5.6.1(webpack@5.109.2):
     dependencies:
       '@jridgewell/trace-mapping': 0.3.29
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       terser: 5.39.0
-      webpack: 5.109.0(webpack-cli@7.2.1)
+      webpack: 5.109.2(webpack-cli@7.2.1)
 
   ms@2.1.3: {}
 
@@ -2339,7 +2339,7 @@ snapshots:
     dependencies:
       graceful-fs: 4.2.11
 
-  webpack-cli@7.2.1(json5@2.2.3)(webpack@5.109.0):
+  webpack-cli@7.2.1(json5@2.2.3)(webpack@5.109.2):
     dependencies:
       '@discoveryjs/json-ext': 1.1.0
       commander: 14.0.3
@@ -2348,7 +2348,7 @@ snapshots:
       import-local: 3.2.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.109.0(webpack-cli@7.2.1)
+      webpack: 5.109.2(webpack-cli@7.2.1)
       webpack-merge: 6.0.1
     optionalDependencies:
       json5: 2.2.3
@@ -2361,7 +2361,7 @@ snapshots:
 
   webpack-sources@3.5.1: {}
 
-  webpack@5.109.0(webpack-cli@7.2.1):
+  webpack@5.109.2(webpack-cli@7.2.1):
     dependencies:
       '@types/estree': 1.0.8
       '@types/json-schema': 7.0.15
@@ -2371,20 +2371,20 @@ snapshots:
       acorn: 8.16.0
       browserslist: 4.28.1
       chrome-trace-event: 1.0.3
-      enhanced-resolve: 5.24.3
+      enhanced-resolve: 5.24.5
       es-module-lexer: 2.1.0
       eslint-scope: 5.1.1
       events: 3.3.0
       graceful-fs: 4.2.11
       mime-db: 1.54.0
-      minimizer-webpack-plugin: 5.6.1(webpack@5.109.0)
+      minimizer-webpack-plugin: 5.6.1(webpack@5.109.2)
       neo-async: 2.6.2
       schema-utils: 4.3.3
       tapable: 2.3.3
       watchpack: 2.5.2
       webpack-sources: 3.5.1
     optionalDependencies:
-      webpack-cli: 7.2.1(json5@2.2.3)(webpack@5.109.0)
+      webpack-cli: 7.2.1(json5@2.2.3)(webpack@5.109.2)
     transitivePeerDependencies:
       - '@minify-html/node'
       - '@swc/core'
