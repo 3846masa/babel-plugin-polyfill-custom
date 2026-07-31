@@ -38,10 +38,10 @@ importers:
         version: 5.2.2(webpack@5.109.2)
       webpack:
         specifier: 5.109.2
-        version: 5.109.2(webpack-cli@7.2.1)
+        version: 5.109.2(webpack-cli@7.2.2)
       webpack-cli:
-        specifier: 7.2.1
-        version: 7.2.1(json5@2.2.3)(webpack@5.109.2)
+        specifier: 7.2.2
+        version: 7.2.2(json5@2.2.3)(webpack@5.109.2)
 
 packages:
 
@@ -1114,8 +1114,8 @@ packages:
     resolution: {integrity: sha512-6i/00NBjP4yGPs+caKSyRfpTF/8Torsu0MOW3mMzIbhgISFder8i7xbqgHlLMwJrdiN8ndBV3UA1/AfzPSr+jg==}
     engines: {node: '>=10.13.0'}
 
-  webpack-cli@7.2.1:
-    resolution: {integrity: sha512-YwSGbcZdfz12DM8JIseVPr3oBb09IgVCVc4vY3oDvZnI/mALTGPAP1QiqOi4/bBLSJrRHaqDIXeHcNA0+G38aw==}
+  webpack-cli@7.2.2:
+    resolution: {integrity: sha512-lD0pALneslq8FfV+rwvm1BMW0AFAJrHHhNupAGN4asYjMvqrtRsenU4iKpiBo09gS4ntMxKGUxl9jhTEzVt0oA==}
     engines: {node: '>=20.9.0'}
     hasBin: true
     peerDependencies:
@@ -1984,7 +1984,7 @@ snapshots:
       '@babel/core': 7.29.7(supports-color@8.1.1)
       find-up: 5.0.0
     optionalDependencies:
-      webpack: 5.109.2(webpack-cli@7.2.1)
+      webpack: 5.109.2(webpack-cli@7.2.2)
 
   babel-plugin-polyfill-corejs2@0.4.15(@babel/core@7.29.7(supports-color@8.1.1))(supports-color@8.1.1):
     dependencies:
@@ -2039,7 +2039,7 @@ snapshots:
 
   circular-dependency-plugin@5.2.2(webpack@5.109.2):
     dependencies:
-      webpack: 5.109.2(webpack-cli@7.2.1)
+      webpack: 5.109.2(webpack-cli@7.2.2)
 
   clone-deep@4.0.1:
     dependencies:
@@ -2190,7 +2190,7 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       terser: 5.39.0
-      webpack: 5.109.2(webpack-cli@7.2.1)
+      webpack: 5.109.2(webpack-cli@7.2.2)
 
   ms@2.1.3: {}
 
@@ -2339,7 +2339,7 @@ snapshots:
     dependencies:
       graceful-fs: 4.2.11
 
-  webpack-cli@7.2.1(json5@2.2.3)(webpack@5.109.2):
+  webpack-cli@7.2.2(json5@2.2.3)(webpack@5.109.2):
     dependencies:
       '@discoveryjs/json-ext': 1.1.0
       commander: 14.0.3
@@ -2348,7 +2348,7 @@ snapshots:
       import-local: 3.2.0
       interpret: 3.1.1
       rechoir: 0.8.0
-      webpack: 5.109.2(webpack-cli@7.2.1)
+      webpack: 5.109.2(webpack-cli@7.2.2)
       webpack-merge: 6.0.1
     optionalDependencies:
       json5: 2.2.3
@@ -2361,7 +2361,7 @@ snapshots:
 
   webpack-sources@3.5.1: {}
 
-  webpack@5.109.2(webpack-cli@7.2.1):
+  webpack@5.109.2(webpack-cli@7.2.2):
     dependencies:
       '@types/estree': 1.0.8
       '@types/json-schema': 7.0.15
@@ -2384,7 +2384,7 @@ snapshots:
       watchpack: 2.5.2
       webpack-sources: 3.5.1
     optionalDependencies:
-      webpack-cli: 7.2.1(json5@2.2.3)(webpack@5.109.2)
+      webpack-cli: 7.2.2(json5@2.2.3)(webpack@5.109.2)
     transitivePeerDependencies:
       - '@minify-html/node'
       - '@swc/core'
