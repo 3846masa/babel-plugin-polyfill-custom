@@ -45,7 +45,7 @@
     "@types/babel__core": "7.20.5",
     "@types/lodash.get": "4.4.9",
     "@types/node": "20.19.43",
-    "@types/semver": "7.7.1",
+    "@types/semver": "7.8.0",
     "conventional-changelog-conventionalcommits": "9.3.1",
     "dedent": "1.7.2",
     "release-it": "20.2.1",
