@@ -18,8 +18,8 @@ importers:
         specifier: 3.6.20
         version: 3.6.20
       zousan:
-        specifier: 4.2.0
-        version: 4.2.0
+        specifier: 4.3.0
+        version: 4.3.0
     devDependencies:
       '@babel/core':
         specifier: 7.29.7
@@ -711,6 +711,8 @@ packages:
   '@parcel/node-resolver-core@3.7.4':
     resolution: {integrity: sha512-b3VDG+um6IWW5CTod6M9hQsTX5mdIelKmam7mzxzgqg4j5hnycgTWqPMc9UxhYoUY/Q/PHfWepccNcKtvP5JiA==}
     engines: {node: '>= 16.0.0'}
+    peerDependencies:
+      '@parcel/core': '*'
 
   '@parcel/optimizer-css@2.16.4':
     resolution: {integrity: sha512-aqdXCtmvpcXYgJFGk2DtXF34wuM2TD1fZorKMrJdKB9sSkWVRs1tq6RAXQrbi0ZPDH9wfE/9An3YdkTex7RHuQ==}
@@ -787,6 +789,8 @@ packages:
   '@parcel/resolver-default@2.16.4':
     resolution: {integrity: sha512-wJe9XQS0hn/t32pntQpJbls3ZL8mGVVhK9L7s7BTmZT9ufnvP2nif1psJz/nbgnP9LF6mLSk43OdMJKpoStsjQ==}
     engines: {node: '>= 16.0.0', parcel: ^2.16.4}
+    peerDependencies:
+      '@parcel/core': '*'
 
   '@parcel/runtime-browser-hmr@2.16.4':
     resolution: {integrity: sha512-asx7p3NjUSfibI3bC7+8+jUIGHWVk2Zuq9SjJGCGDt+auT9A4uSGljnsk1BWWPqqZ0WILubq4czSAqm0+wt4cw==}
@@ -1548,8 +1552,8 @@ packages:
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
 
-  zousan@4.2.0:
-    resolution: {integrity: sha512-ABtHUknkFd2ES6Bpdv3uoqeVkv1Cig/ZQ53EcyNRmoU0V5lKJQPo7YGaCIdrTNJa1cPATi5DTQR2Ya57Wu/zoQ==}
+  zousan@4.3.0:
+    resolution: {integrity: sha512-CfD7JYBiURCD3oM4F7oxoFbhqfiYhw/BcPwl9YlSdcNhaUJ23qGpRhySMEhrZ2qMzDAUv3ZyvivFc+Qa/MJiUg==}
 
 snapshots:
 
@@ -2437,6 +2441,7 @@ snapshots:
   '@parcel/node-resolver-core@3.7.4(@parcel/core@2.16.4)':
     dependencies:
       '@mischnic/json-sourcemap': 0.1.1
+      '@parcel/core': 2.16.4
       '@parcel/diagnostic': 2.16.4
       '@parcel/fs': 2.16.4(@parcel/core@2.16.4)
       '@parcel/rust': 2.16.4
@@ -2444,7 +2449,6 @@ snapshots:
       nullthrows: 1.1.1
       semver: 7.8.5
     transitivePeerDependencies:
-      - '@parcel/core'
       - napi-wasm
 
   '@parcel/optimizer-css@2.16.4(@parcel/core@2.16.4)':
@@ -2625,10 +2629,10 @@ snapshots:
 
   '@parcel/resolver-default@2.16.4(@parcel/core@2.16.4)':
     dependencies:
+      '@parcel/core': 2.16.4
       '@parcel/node-resolver-core': 3.7.4(@parcel/core@2.16.4)
       '@parcel/plugin': 2.16.4(@parcel/core@2.16.4)
     transitivePeerDependencies:
-      - '@parcel/core'
       - napi-wasm
 
   '@parcel/runtime-browser-hmr@2.16.4(@parcel/core@2.16.4)':
@@ -3388,4 +3392,4 @@ snapshots:
 
   yallist@3.1.1: {}
 
-  zousan@4.2.0: {}
+  zousan@4.3.0: {}
