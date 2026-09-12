@@ -15,8 +15,8 @@ importers:
         specifier: 0.6.8
         version: 0.6.8(@babel/core@7.29.7)
       '@mdn/browser-compat-data':
-        specifier: 7.3.17
-        version: 7.3.17
+        specifier: 8.1.0
+        version: 8.1.0
       fast-json-stable-stringify:
         specifier: 2.1.0
         version: 2.1.0
@@ -636,8 +636,8 @@ packages:
   '@keyv/serialize@1.1.1':
     resolution: {integrity: sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA==}
 
-  '@mdn/browser-compat-data@7.3.17':
-    resolution: {integrity: sha512-ZtcyRH/psFX4njAEvY898TH/VYknOaeEe2KJdldak4eDsj4MufSY2sXtBJ2IKjZ3jAvLUBRVf8+bv8q2xDHVDg==}
+  '@mdn/browser-compat-data@8.1.0':
+    resolution: {integrity: sha512-BNlUjp+9O6gtIHPVZEGFb5rgtuWW8weR+mSKfLOevxbfoZv5DRe3N4ZTEpXiIm5wfR7+kqHu8malCCgP6USrlg==}
 
   '@napi-rs/wasm-runtime@0.2.11':
     resolution: {integrity: sha512-9DPkXtvHydrcOsopiYpUgPHpmj0HWZKMUnL2dZqpvC42lsratuBG06V5ipyno0fUek5VlFsNQ+AcFATSrJXgMA==}
@@ -3322,7 +3322,7 @@ snapshots:
 
   '@keyv/serialize@1.1.1': {}
 
-  '@mdn/browser-compat-data@7.3.17': {}
+  '@mdn/browser-compat-data@8.1.0': {}
 
   '@napi-rs/wasm-runtime@0.2.11':
     dependencies:
